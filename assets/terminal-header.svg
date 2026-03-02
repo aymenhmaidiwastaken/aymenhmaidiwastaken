@@ -1,0 +1,143 @@
+<svg viewBox="0 0 800 320" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <defs>
+    <!-- CRT green glow effect -->
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Subtle scanlines pattern -->
+    <pattern id="scanlines" width="800" height="2" patternUnits="userSpaceOnUse">
+      <rect width="800" height="1" fill="#000" opacity="0.03"/>
+    </pattern>
+
+    <!-- Screen flicker -->
+    <filter id="noise">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="1" result="noise"/>
+      <feColorMatrix type="saturate" values="0" in="noise" result="grayNoise"/>
+      <feBlend in="SourceGraphic" in2="grayNoise" mode="multiply" result="blend"/>
+      <feComponentTransfer in="blend">
+        <feFuncA type="linear" slope="1"/>
+      </feComponentTransfer>
+    </filter>
+  </defs>
+
+  <style>
+    @keyframes blink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0; }
+    }
+    @keyframes slideIn {
+      from { opacity: 0; transform: translateY(8px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes flicker {
+      0%, 97%, 100% { opacity: 1; }
+      98% { opacity: 0.95; }
+    }
+    @keyframes bootUp {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    .screen { animation: bootUp 0.8s ease 0.1s both, flicker 8s infinite; }
+    .cursor { animation: blink 1.1s step-end infinite; }
+    .line1 { animation: slideIn 0.3s ease 0.6s both; }
+    .line2 { animation: slideIn 0.3s ease 1.2s both; }
+    .line3 { animation: slideIn 0.3s ease 2.0s both; }
+    .line4 { animation: slideIn 0.3s ease 2.6s both; }
+    .line5 { animation: slideIn 0.3s ease 3.4s both; }
+    .line6 { animation: slideIn 0.3s ease 4.0s both; }
+    .line7 { animation: slideIn 0.3s ease 4.8s both; }
+  </style>
+
+  <!-- Terminal window frame -->
+  <rect width="800" height="320" rx="12" fill="#0d1117" stroke="#30363d" stroke-width="1.5"/>
+
+  <!-- Title bar background -->
+  <rect width="800" height="40" rx="12" fill="#161b22"/>
+  <rect y="28" width="800" height="12" fill="#161b22"/>
+  <line x1="0" y1="40" x2="800" y2="40" stroke="#30363d" stroke-width="1"/>
+
+  <!-- Traffic light buttons -->
+  <circle cx="24" cy="20" r="6.5" fill="#ff5f56"/>
+  <circle cx="46" cy="20" r="6.5" fill="#ffbd2e"/>
+  <circle cx="68" cy="20" r="6.5" fill="#27c93f"/>
+
+  <!-- Traffic light icons (show on hover feel) -->
+  <text x="24" y="23.5" text-anchor="middle" fill="#960a00" font-size="9" font-family="Arial" opacity="0.6">&#x2715;</text>
+  <text x="46" y="23" text-anchor="middle" fill="#7a5900" font-size="11" font-family="Arial" opacity="0.6">&#x2013;</text>
+  <text x="68" y="23.5" text-anchor="middle" fill="#0a6100" font-size="9" font-family="Arial" opacity="0.6">&#x2b1a;</text>
+
+  <!-- Title bar text -->
+  <text x="400" y="25" text-anchor="middle" fill="#8b949e" font-family="'SF Mono', 'Fira Code', 'Courier New', monospace" font-size="12">aymen@github: ~/portfolio</text>
+
+  <!-- Terminal screen content -->
+  <g class="screen">
+
+    <!-- Line 1: whoami command -->
+    <g class="line1">
+      <text x="24" y="74" font-family="'SF Mono', 'Fira Code', 'Courier New', monospace" font-size="14">
+        <tspan fill="#00ff41" filter="url(#glow)">aymen@github</tspan><tspan fill="#6e7681">:</tspan><tspan fill="#58a6ff">~</tspan><tspan fill="#6e7681">$ </tspan><tspan fill="#e6edf3">whoami</tspan>
+      </text>
+    </g>
+
+    <!-- Line 2: whoami output -->
+    <g class="line2">
+      <text x="24" y="98" font-family="'SF Mono', 'Fira Code', 'Courier New', monospace" font-size="14" fill="#f0f6fc" font-weight="bold">Aymen Hmaidi</text>
+      <text x="152" y="98" font-family="'SF Mono', 'Fira Code', 'Courier New', monospace" font-size="14" fill="#8b949e"> &#8212; Full-Stack Developer &amp; AI Tinkerer</text>
+    </g>
+
+    <!-- Line 3: cat motto command -->
+    <g class="line3">
+      <text x="24" y="138" font-family="'SF Mono', 'Fira Code', 'Courier New', monospace" font-size="14">
+        <tspan fill="#00ff41" filter="url(#glow)">aymen@github</tspan><tspan fill="#6e7681">:</tspan><tspan fill="#58a6ff">~</tspan><tspan fill="#6e7681">$ </tspan><tspan fill="#e6edf3">cat ~/motto.txt</tspan>
+      </text>
+    </g>
+
+    <!-- Line 4: motto output -->
+    <g class="line4">
+      <text x="24" y="162" font-family="'SF Mono', 'Fira Code', 'Courier New', monospace" font-size="14" fill="#d2a8ff" font-style="italic">"i code to cure my depression."</text>
+    </g>
+
+    <!-- Line 5: echo command -->
+    <g class="line5">
+      <text x="24" y="202" font-family="'SF Mono', 'Fira Code', 'Courier New', monospace" font-size="14">
+        <tspan fill="#00ff41" filter="url(#glow)">aymen@github</tspan><tspan fill="#6e7681">:</tspan><tspan fill="#58a6ff">~</tspan><tspan fill="#6e7681">$ </tspan><tspan fill="#e6edf3">echo $STACK</tspan>
+      </text>
+    </g>
+
+    <!-- Line 6: echo output -->
+    <g class="line6">
+      <text x="24" y="226" font-family="'SF Mono', 'Fira Code', 'Courier New', monospace" font-size="13" fill="#7ee787">Python</text>
+      <text x="90" y="226" font-family="'SF Mono', 'Fira Code', 'Courier New', monospace" font-size="13" fill="#6e7681">|</text>
+      <text x="102" y="226" font-family="'SF Mono', 'Fira Code', 'Courier New', monospace" font-size="13" fill="#7ee787">TypeScript</text>
+      <text x="196" y="226" font-family="'SF Mono', 'Fira Code', 'Courier New', monospace" font-size="13" fill="#6e7681">|</text>
+      <text x="208" y="226" font-family="'SF Mono', 'Fira Code', 'Courier New', monospace" font-size="13" fill="#7ee787">Next.js</text>
+      <text x="274" y="226" font-family="'SF Mono', 'Fira Code', 'Courier New', monospace" font-size="13" fill="#6e7681">|</text>
+      <text x="286" y="226" font-family="'SF Mono', 'Fira Code', 'Courier New', monospace" font-size="13" fill="#7ee787">Laravel</text>
+      <text x="358" y="226" font-family="'SF Mono', 'Fira Code', 'Courier New', monospace" font-size="13" fill="#6e7681">|</text>
+      <text x="370" y="226" font-family="'SF Mono', 'Fira Code', 'Courier New', monospace" font-size="13" fill="#7ee787">Vue.js</text>
+      <text x="430" y="226" font-family="'SF Mono', 'Fira Code', 'Courier New', monospace" font-size="13" fill="#6e7681">|</text>
+      <text x="442" y="226" font-family="'SF Mono', 'Fira Code', 'Courier New', monospace" font-size="13" fill="#7ee787">Node.js</text>
+      <text x="514" y="226" font-family="'SF Mono', 'Fira Code', 'Courier New', monospace" font-size="13" fill="#6e7681">|</text>
+      <text x="526" y="226" font-family="'SF Mono', 'Fira Code', 'Courier New', monospace" font-size="13" fill="#7ee787">MongoDB</text>
+    </g>
+
+    <!-- Line 7: empty prompt with blinking cursor -->
+    <g class="line7">
+      <text x="24" y="266" font-family="'SF Mono', 'Fira Code', 'Courier New', monospace" font-size="14">
+        <tspan fill="#00ff41" filter="url(#glow)">aymen@github</tspan><tspan fill="#6e7681">:</tspan><tspan fill="#58a6ff">~</tspan><tspan fill="#6e7681">$ </tspan>
+      </text>
+      <!-- Blinking cursor -->
+      <rect x="166" y="253" width="9" height="17" rx="1" fill="#00ff41" class="cursor"/>
+    </g>
+
+    <!-- Scanlines overlay -->
+    <rect width="800" height="280" y="40" fill="url(#scanlines)" opacity="0.5"/>
+
+  </g>
+</svg>
