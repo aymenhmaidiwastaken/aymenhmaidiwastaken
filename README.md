@@ -103,27 +103,13 @@ projects/
 
 <div align="center">
 
-<a href="https://github.com/aymenhmaidiwastaken/seo-article-generator">
-  <img src="https://img.shields.io/badge/seo--article--generator-0d1117?style=for-the-badge&logoColor=00ff41" alt="seo-article-generator"/>
-</a>
-<a href="https://github.com/aymenhmaidiwastaken/daily-country-search-trends">
-  <img src="https://img.shields.io/badge/daily--country--search--trends-0d1117?style=for-the-badge&logoColor=00ff41" alt="daily-country-search-trends"/>
-</a>
-<a href="https://github.com/aymenhmaidiwastaken/BoomAi">
-  <img src="https://img.shields.io/badge/BoomAi-0d1117?style=for-the-badge&logoColor=00ff41" alt="BoomAi"/>
-</a>
-<a href="https://github.com/aymenhmaidiwastaken/Boomash">
-  <img src="https://img.shields.io/badge/Boomash-0d1117?style=for-the-badge&logoColor=00ff41" alt="Boomash"/>
-</a>
-<a href="https://github.com/aymenhmaidiwastaken/seektalent">
-  <img src="https://img.shields.io/badge/seektalent-0d1117?style=for-the-badge&logoColor=00ff41" alt="seektalent"/>
-</a>
-<a href="https://github.com/aymenhmaidiwastaken/Melkeya">
-  <img src="https://img.shields.io/badge/Melkeya-0d1117?style=for-the-badge&logoColor=00ff41" alt="Melkeya"/>
-</a>
-<a href="https://github.com/aymenhmaidiwastaken/AgroCare">
-  <img src="https://img.shields.io/badge/AgroCare-0d1117?style=for-the-badge&logoColor=00ff41" alt="AgroCare"/>
-</a>
+[![seo-article-generator](https://img.shields.io/badge/seo--article--generator-0d1117?style=for-the-badge&logoColor=00ff41)](https://github.com/aymenhmaidiwastaken/seo-article-generator)
+[![daily-country-search-trends](https://img.shields.io/badge/daily--country--search--trends-0d1117?style=for-the-badge&logoColor=00ff41)](https://github.com/aymenhmaidiwastaken/daily-country-search-trends)
+[![BoomAi](https://img.shields.io/badge/BoomAi-0d1117?style=for-the-badge&logoColor=00ff41)](https://github.com/aymenhmaidiwastaken/BoomAi)
+[![Boomash](https://img.shields.io/badge/Boomash-0d1117?style=for-the-badge&logoColor=00ff41)](https://github.com/aymenhmaidiwastaken/Boomash)
+[![seektalent](https://img.shields.io/badge/seektalent-0d1117?style=for-the-badge&logoColor=00ff41)](https://github.com/aymenhmaidiwastaken/seektalent)
+[![Melkeya](https://img.shields.io/badge/Melkeya-0d1117?style=for-the-badge&logoColor=00ff41)](https://github.com/aymenhmaidiwastaken/Melkeya)
+[![AgroCare](https://img.shields.io/badge/AgroCare-0d1117?style=for-the-badge&logoColor=00ff41)](https://github.com/aymenhmaidiwastaken/AgroCare)
 
 </div>
 <!-- PROJECTS-END -->

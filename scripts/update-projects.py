@@ -80,17 +80,13 @@ def build_tree(repos):
     tree_lines.append(f"{count} directories, \u221e lines of code")
     tree_lines.append("```")
 
-    # Build badge links
+    # Build badge links (markdown syntax to avoid link underlines)
     badge_lines = ['<div align="center">', ""]
     for repo in filtered:
         name = repo["name"]
-        lang = repo["language"] or "Unknown"
-        emoji = LANG_EMOJI.get(lang, DEFAULT_EMOJI)
         safe_name = name.replace("-", "--")
         badge_lines.append(
-            f'<a href="https://github.com/{USERNAME}/{name}">\n'
-            f'  <img src="https://img.shields.io/badge/{safe_name}-0d1117?style=for-the-badge&logoColor=00ff41" alt="{name}"/>\n'
-            f"</a>"
+            f"[![{name}](https://img.shields.io/badge/{safe_name}-0d1117?style=for-the-badge&logoColor=00ff41)](https://github.com/{USERNAME}/{name})"
         )
     badge_lines.append("")
     badge_lines.append("</div>")
