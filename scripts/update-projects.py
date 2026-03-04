@@ -89,16 +89,16 @@ def build_tree(repos):
         safe_name = name.replace("-", "--")
         badge_lines.append(
             f'<a href="https://github.com/{USERNAME}/{name}">\n'
-            f'  <img src="https://img.shields.io/badge/{emoji}_{safe_name}-0d1117?style=for-the-badge&logoColor=00ff41" alt="{name}"/>\n'
+            f'  <img src="https://img.shields.io/badge/{emoji}%20{safe_name}-0d1117?style=for-the-badge&logoColor=00ff41" alt="{name}"/>\n'
             f"</a>"
         )
     badge_lines.append("")
     badge_lines.append("</div>")
 
-    return "\n".join(tree_lines) + "\n\n" + "\n".join(badge_lines)
+    return count, "\n".join(tree_lines) + "\n\n" + "\n".join(badge_lines)
 
 
-def update_readme(content):
+def update_readme(count, content):
     with open(README_PATH, "r", encoding="utf-8") as f:
         readme = f.read()
 
@@ -106,15 +106,22 @@ def update_readme(content):
     replacement = f"\\1\n{content}\n\\2"
     new_readme = re.sub(pattern, replacement, readme, flags=re.DOTALL)
 
+    # Update repo count in whoami section
+    new_readme = re.sub(
+        r"(<!-- REPO-COUNT -->)\d+(<!-- /REPO-COUNT -->)",
+        f"\\g<1>{count}\\g<2>",
+        new_readme,
+    )
+
     with open(README_PATH, "w", encoding="utf-8") as f:
         f.write(new_readme)
 
 
 def main():
     repos = fetch_repos()
-    content = build_tree(repos)
-    update_readme(content)
-    print(f"Updated README with {len([r for r in repos if not r['fork'] and r['name'] not in EXCLUDE])} projects")
+    count, content = build_tree(repos)
+    update_readme(count, content)
+    print(f"Updated README with {count} projects")
 
 
 if __name__ == "__main__":
