@@ -64,66 +64,69 @@ Status    "i code to cure my depression"
 
 ## `projects/`
 
+<!-- PROJECTS-START -->
 ```
 aymen@github:~$ tree ~/projects --info
 
 projects/
 │
-├── 🌱 AgroCare
-│   ├── desc:  AI-powered plant disease detection using LLM agents
-│   ├── tech:  Python · MongoDB · LLM Agents · bcrypt
-│   └── type:  AI / Machine Learning
+├── 🐍 seo-article-generator
+│   ├── desc:  The most powerful open-source AI-powered SEO article generator...
+│   └── tech:  Python
 │
-├── 🏠 Melkeya
-│   ├── desc:  Real estate platform for the UAE market
-│   ├── tech:  Next.js · Node.js · JavaScript
-│   └── type:  Web Platform
+├── 🔥 daily-country-search-trends
+│   ├── desc:  Chrome extension that automatically posts the top 10 Google se...
+│   └── tech:  JavaScript
+│
+├── 🎨 BoomAi
+│   ├── desc:  AI-powered content generation platform built with   Next.js 14...
+│   └── tech:  SCSS
+│
+├── 🎨 Boomash
+│   ├── desc:  Laravel/Vue Js Admin Dashboard
+│   └── tech:  SCSS
 │
 ├── 🎯 seektalent
-│   ├── desc:  Talent hub platform
-│   ├── tech:  TypeScript
-│   └── type:  Web Platform
+│   ├── desc:  the ultimate talent hub platform
+│   └── tech:  TypeScript
 │
-├── 📊 Boomash
-│   ├── desc:  Admin dashboard combining Laravel and Vue.js
-│   ├── tech:  Laravel · Vue.js · SCSS
-│   └── type:  Dashboard
+├── 🔥 Melkeya
+│   ├── desc:  Nextjs/Nodejs Real estate platform for the UAE market
+│   └── tech:  JavaScript
 │
-├── 🤖 BoomAi
-│   ├── desc:  AI content generation engine
-│   ├── tech:  Next.js 14 · Laravel 11 · SCSS
-│   └── type:  AI / Web App
-│
-└── 🔥 daily-country-search-trends
-    ├── desc:  Chrome extension posting Google trends to X/Twitter
-    ├── tech:  JavaScript · Chrome API
-    └── type:  Browser Extension
+└── 🐍 AgroCare
+    ├── desc:  Plant disease detection & comparison using LLM agents, bcrypt ...
+    └── tech:  Python
 
-6 directories, ∞ lines of code
+7 directories, ∞ lines of code
 ```
 
 <div align="center">
 
-<a href="https://github.com/aymenhmaidiwastaken/AgroCare">
-  <img src="https://img.shields.io/badge/🌱_AgroCare-0d1117?style=for-the-badge&logoColor=00ff41" alt="AgroCare"/>
+<a href="https://github.com/aymenhmaidiwastaken/seo-article-generator">
+  <img src="https://img.shields.io/badge/🐍_seo--article--generator-0d1117?style=for-the-badge&logoColor=00ff41" alt="seo-article-generator"/>
 </a>
-<a href="https://github.com/aymenhmaidiwastaken/Melkeya">
-  <img src="https://img.shields.io/badge/🏠_Melkeya-0d1117?style=for-the-badge&logoColor=00ff41" alt="Melkeya"/>
+<a href="https://github.com/aymenhmaidiwastaken/daily-country-search-trends">
+  <img src="https://img.shields.io/badge/🔥_daily--country--search--trends-0d1117?style=for-the-badge&logoColor=00ff41" alt="daily-country-search-trends"/>
+</a>
+<a href="https://github.com/aymenhmaidiwastaken/BoomAi">
+  <img src="https://img.shields.io/badge/🎨_BoomAi-0d1117?style=for-the-badge&logoColor=00ff41" alt="BoomAi"/>
+</a>
+<a href="https://github.com/aymenhmaidiwastaken/Boomash">
+  <img src="https://img.shields.io/badge/🎨_Boomash-0d1117?style=for-the-badge&logoColor=00ff41" alt="Boomash"/>
 </a>
 <a href="https://github.com/aymenhmaidiwastaken/seektalent">
   <img src="https://img.shields.io/badge/🎯_seektalent-0d1117?style=for-the-badge&logoColor=00ff41" alt="seektalent"/>
 </a>
-<a href="https://github.com/aymenhmaidiwastaken/Boomash">
-  <img src="https://img.shields.io/badge/📊_Boomash-0d1117?style=for-the-badge&logoColor=00ff41" alt="Boomash"/>
+<a href="https://github.com/aymenhmaidiwastaken/Melkeya">
+  <img src="https://img.shields.io/badge/🔥_Melkeya-0d1117?style=for-the-badge&logoColor=00ff41" alt="Melkeya"/>
 </a>
-<a href="https://github.com/aymenhmaidiwastaken/BoomAi">
-  <img src="https://img.shields.io/badge/🤖_BoomAi-0d1117?style=for-the-badge&logoColor=00ff41" alt="BoomAi"/>
-</a>
-<a href="https://github.com/aymenhmaidiwastaken/daily-country-search-trends">
-  <img src="https://img.shields.io/badge/🔥_daily--trends-0d1117?style=for-the-badge&logoColor=00ff41" alt="daily-trends"/>
+<a href="https://github.com/aymenhmaidiwastaken/AgroCare">
+  <img src="https://img.shields.io/badge/🐍_AgroCare-0d1117?style=for-the-badge&logoColor=00ff41" alt="AgroCare"/>
 </a>
 
 </div>
+<!-- PROJECTS-END -->
 
 ---
 
