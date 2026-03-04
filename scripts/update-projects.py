@@ -89,7 +89,7 @@ def build_tree(repos):
         safe_name = name.replace("-", "--")
         badge_lines.append(
             f'<a href="https://github.com/{USERNAME}/{name}">\n'
-            f'  <img src="https://img.shields.io/badge/{emoji}%20{safe_name}-0d1117?style=for-the-badge&logoColor=00ff41" alt="{name}"/>\n'
+            f'  <img src="https://img.shields.io/badge/{safe_name}-0d1117?style=for-the-badge&logoColor=00ff41" alt="{name}"/>\n'
             f"</a>"
         )
     badge_lines.append("")
@@ -106,9 +106,9 @@ def update_readme(count, content):
     replacement = f"\\1\n{content}\n\\2"
     new_readme = re.sub(pattern, replacement, readme, flags=re.DOTALL)
 
-    # Update repo count in whoami section
+    # Update repo count in whoami section (inside code block)
     new_readme = re.sub(
-        r"(<!-- REPO-COUNT -->)\d+(<!-- /REPO-COUNT -->)",
+        r"(Packages\s+)\d+(\s+\(github\))",
         f"\\g<1>{count}\\g<2>",
         new_readme,
     )

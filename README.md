@@ -36,7 +36,7 @@ OS        Developer Brain v4.2.0
 Host      Aymen Hmaidi
 Kernel    Full-Stack v3.0-LTS
 Uptime    too long to remember
-Packages  <!-- REPO-COUNT -->7<!-- /REPO-COUNT --> (github)
+Packages  7 (github)
 Shell     bash / zsh
 Editor    VS Code [dark mode]
 Terminal  wherever there's WiFi
@@ -104,25 +104,25 @@ projects/
 <div align="center">
 
 <a href="https://github.com/aymenhmaidiwastaken/seo-article-generator">
-  <img src="https://img.shields.io/badge/🐍%20seo--article--generator-0d1117?style=for-the-badge&logoColor=00ff41" alt="seo-article-generator"/>
+  <img src="https://img.shields.io/badge/seo--article--generator-0d1117?style=for-the-badge&logoColor=00ff41" alt="seo-article-generator"/>
 </a>
 <a href="https://github.com/aymenhmaidiwastaken/daily-country-search-trends">
-  <img src="https://img.shields.io/badge/🔥%20daily--country--search--trends-0d1117?style=for-the-badge&logoColor=00ff41" alt="daily-country-search-trends"/>
+  <img src="https://img.shields.io/badge/daily--country--search--trends-0d1117?style=for-the-badge&logoColor=00ff41" alt="daily-country-search-trends"/>
 </a>
 <a href="https://github.com/aymenhmaidiwastaken/BoomAi">
-  <img src="https://img.shields.io/badge/🎨%20BoomAi-0d1117?style=for-the-badge&logoColor=00ff41" alt="BoomAi"/>
+  <img src="https://img.shields.io/badge/BoomAi-0d1117?style=for-the-badge&logoColor=00ff41" alt="BoomAi"/>
 </a>
 <a href="https://github.com/aymenhmaidiwastaken/Boomash">
-  <img src="https://img.shields.io/badge/🎨%20Boomash-0d1117?style=for-the-badge&logoColor=00ff41" alt="Boomash"/>
+  <img src="https://img.shields.io/badge/Boomash-0d1117?style=for-the-badge&logoColor=00ff41" alt="Boomash"/>
 </a>
 <a href="https://github.com/aymenhmaidiwastaken/seektalent">
-  <img src="https://img.shields.io/badge/🎯%20seektalent-0d1117?style=for-the-badge&logoColor=00ff41" alt="seektalent"/>
+  <img src="https://img.shields.io/badge/seektalent-0d1117?style=for-the-badge&logoColor=00ff41" alt="seektalent"/>
 </a>
 <a href="https://github.com/aymenhmaidiwastaken/Melkeya">
-  <img src="https://img.shields.io/badge/🔥%20Melkeya-0d1117?style=for-the-badge&logoColor=00ff41" alt="Melkeya"/>
+  <img src="https://img.shields.io/badge/Melkeya-0d1117?style=for-the-badge&logoColor=00ff41" alt="Melkeya"/>
 </a>
 <a href="https://github.com/aymenhmaidiwastaken/AgroCare">
-  <img src="https://img.shields.io/badge/🐍%20AgroCare-0d1117?style=for-the-badge&logoColor=00ff41" alt="AgroCare"/>
+  <img src="https://img.shields.io/badge/AgroCare-0d1117?style=for-the-badge&logoColor=00ff41" alt="AgroCare"/>
 </a>
 
 </div>
