@@ -36,7 +36,7 @@ OS        Developer Brain v4.2.0
 Host      Aymen Hmaidi
 Kernel    Full-Stack v3.0-LTS
 Uptime    too long to remember
-Packages  7 (github)
+Packages  8 (github)
 Shell     bash / zsh
 Editor    VS Code [dark mode]
 Terminal  wherever there's WiFi
@@ -70,6 +70,10 @@ aymen@github:~$ tree ~/projects --info
 
 projects/
 │
+├── 🎯 OpenBoil
+│   ├── desc:  The ultimate open-source SaaS boilerplate. Ship in record time...
+│   └── tech:  TypeScript
+│
 ├── 🐍 seo-article-generator
 │   ├── desc:  The most powerful open-source AI-powered SEO article generator...
 │   └── tech:  Python
@@ -98,11 +102,12 @@ projects/
     ├── desc:  Plant disease detection & comparison using LLM agents, bcrypt ...
     └── tech:  Python
 
-7 directories, ∞ lines of code
+8 directories, ∞ lines of code
 ```
 
 <div align="center">
 
+[![OpenBoil](https://img.shields.io/badge/OpenBoil-0d1117?style=for-the-badge&logoColor=00ff41)](https://github.com/aymenhmaidiwastaken/OpenBoil)
 [![seo-article-generator](https://img.shields.io/badge/seo--article--generator-0d1117?style=for-the-badge&logoColor=00ff41)](https://github.com/aymenhmaidiwastaken/seo-article-generator)
 [![daily-country-search-trends](https://img.shields.io/badge/daily--country--search--trends-0d1117?style=for-the-badge&logoColor=00ff41)](https://github.com/aymenhmaidiwastaken/daily-country-search-trends)
 [![BoomAi](https://img.shields.io/badge/BoomAi-0d1117?style=for-the-badge&logoColor=00ff41)](https://github.com/aymenhmaidiwastaken/BoomAi)
