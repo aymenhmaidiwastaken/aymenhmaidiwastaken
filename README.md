@@ -36,13 +36,13 @@ OS        Developer Brain v4.2.0
 Host      Aymen Hmaidi
 Kernel    Full-Stack v3.0-LTS
 Uptime    too long to remember
-Packages  8 (github)
+Packages  10 (github)
 Shell     bash / zsh
 Editor    VS Code [dark mode]
 Terminal  wherever there's WiFi
 CPU       Caffeine-Powered @ 3.4GHz
 GPU       100% allocated to VS Code
-Memory    420MiB / 16GiB [99%]
+Memory    15.8GiB / 16GiB [99%]
 Status    "i code to cure my depression"
 ```
 
@@ -69,6 +69,14 @@ Status    "i code to cure my depression"
 aymen@github:~$ tree ~/projects --info
 
 projects/
+│
+├── 🔥 unsender-for-facebook
+│   ├── desc:  Unsend all your sent messages in any Facebook Messenger conver...
+│   └── tech:  JavaScript
+│
+├── 🔥 unsender-for-instagram
+│   ├── desc:  Unsend all your sent messages in any Instagram DM conversation...
+│   └── tech:  JavaScript
 │
 ├── 🎯 OpenBoil
 │   ├── desc:  The ultimate open-source SaaS boilerplate. Ship in record time...
@@ -102,11 +110,13 @@ projects/
     ├── desc:  Plant disease detection & comparison using LLM agents, bcrypt ...
     └── tech:  Python
 
-8 directories, ∞ lines of code
+10 directories, ∞ lines of code
 ```
 
 <div align="center">
 
+[![unsender-for-facebook](https://img.shields.io/badge/unsender--for--facebook-0d1117?style=for-the-badge&logoColor=00ff41)](https://github.com/aymenhmaidiwastaken/unsender-for-facebook)
+[![unsender-for-instagram](https://img.shields.io/badge/unsender--for--instagram-0d1117?style=for-the-badge&logoColor=00ff41)](https://github.com/aymenhmaidiwastaken/unsender-for-instagram)
 [![OpenBoil](https://img.shields.io/badge/OpenBoil-0d1117?style=for-the-badge&logoColor=00ff41)](https://github.com/aymenhmaidiwastaken/OpenBoil)
 [![seo-article-generator](https://img.shields.io/badge/seo--article--generator-0d1117?style=for-the-badge&logoColor=00ff41)](https://github.com/aymenhmaidiwastaken/seo-article-generator)
 [![daily-country-search-trends](https://img.shields.io/badge/daily--country--search--trends-0d1117?style=for-the-badge&logoColor=00ff41)](https://github.com/aymenhmaidiwastaken/daily-country-search-trends)
