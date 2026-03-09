@@ -36,7 +36,7 @@ OS        Developer Brain v4.2.0
 Host      Aymen Hmaidi
 Kernel    Full-Stack v3.0-LTS
 Uptime    too long to remember
-Packages  11 (github)
+Packages  13 (github)
 Shell     bash / zsh
 Editor    VS Code [dark mode]
 Terminal  wherever there's WiFi
@@ -69,6 +69,14 @@ Status    "i code to cure my depression"
 aymen@github:~$ tree ~/projects --info
 
 projects/
+│
+├── 🔥 Shopify-Seo
+│   ├── desc:  Free Chrome extension for comprehensive Shopify SEO analysis. ...
+│   └── tech:  JavaScript
+│
+├── 🔥 Css-Sniffer
+│   ├── desc:  The ultimate CSS inspection & design system extraction Chrome ...
+│   └── tech:  JavaScript
 │
 ├── 🔥 linkedin-auto-connect
 │   ├── desc:  Chrome extension to automatically send LinkedIn connection req...
@@ -114,11 +122,13 @@ projects/
     ├── desc:  Plant disease detection & comparison using LLM agents, bcrypt ...
     └── tech:  Python
 
-11 directories, ∞ lines of code
+13 directories, ∞ lines of code
 ```
 
 <div align="center">
 
+[![Shopify-Seo](https://img.shields.io/badge/Shopify--Seo-0d1117?style=for-the-badge&logoColor=00ff41)](https://github.com/aymenhmaidiwastaken/Shopify-Seo)
+[![Css-Sniffer](https://img.shields.io/badge/Css--Sniffer-0d1117?style=for-the-badge&logoColor=00ff41)](https://github.com/aymenhmaidiwastaken/Css-Sniffer)
 [![linkedin-auto-connect](https://img.shields.io/badge/linkedin--auto--connect-0d1117?style=for-the-badge&logoColor=00ff41)](https://github.com/aymenhmaidiwastaken/linkedin-auto-connect)
 [![unsender-for-facebook](https://img.shields.io/badge/unsender--for--facebook-0d1117?style=for-the-badge&logoColor=00ff41)](https://github.com/aymenhmaidiwastaken/unsender-for-facebook)
 [![unsender-for-instagram](https://img.shields.io/badge/unsender--for--instagram-0d1117?style=for-the-badge&logoColor=00ff41)](https://github.com/aymenhmaidiwastaken/unsender-for-instagram)
