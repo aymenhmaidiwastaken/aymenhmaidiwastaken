@@ -36,7 +36,7 @@ OS        Developer Brain v4.2.0
 Host      Aymen Hmaidi
 Kernel    Full-Stack v3.0-LTS
 Uptime    too long to remember
-Packages  10 (github)
+Packages  11 (github)
 Shell     bash / zsh
 Editor    VS Code [dark mode]
 Terminal  wherever there's WiFi
@@ -69,6 +69,10 @@ Status    "i code to cure my depression"
 aymen@github:~$ tree ~/projects --info
 
 projects/
+│
+├── 🔥 linkedin-auto-connect
+│   ├── desc:  Chrome extension to automatically send LinkedIn connection req...
+│   └── tech:  JavaScript
 │
 ├── 🔥 unsender-for-facebook
 │   ├── desc:  Unsend all your sent messages in any Facebook Messenger conver...
@@ -110,11 +114,12 @@ projects/
     ├── desc:  Plant disease detection & comparison using LLM agents, bcrypt ...
     └── tech:  Python
 
-10 directories, ∞ lines of code
+11 directories, ∞ lines of code
 ```
 
 <div align="center">
 
+[![linkedin-auto-connect](https://img.shields.io/badge/linkedin--auto--connect-0d1117?style=for-the-badge&logoColor=00ff41)](https://github.com/aymenhmaidiwastaken/linkedin-auto-connect)
 [![unsender-for-facebook](https://img.shields.io/badge/unsender--for--facebook-0d1117?style=for-the-badge&logoColor=00ff41)](https://github.com/aymenhmaidiwastaken/unsender-for-facebook)
 [![unsender-for-instagram](https://img.shields.io/badge/unsender--for--instagram-0d1117?style=for-the-badge&logoColor=00ff41)](https://github.com/aymenhmaidiwastaken/unsender-for-instagram)
 [![OpenBoil](https://img.shields.io/badge/OpenBoil-0d1117?style=for-the-badge&logoColor=00ff41)](https://github.com/aymenhmaidiwastaken/OpenBoil)
