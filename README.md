@@ -70,55 +70,55 @@ aymen@github:~$ tree ~/projects --info
 
 projects/
 │
-├── Shopify-Seo
+├── 🔥 Shopify-Seo
 │   ├── desc:  Free Chrome extension for comprehensive Shopify SEO analysis. ...
 │   └── tech:  JavaScript
 │
-├── Css-Sniffer
+├── 🔥 Css-Sniffer
 │   ├── desc:  The ultimate CSS inspection & design system extraction Chrome ...
 │   └── tech:  JavaScript
 │
-├── linkedin-auto-connect
+├── 🔥 linkedin-auto-connect
 │   ├── desc:  Chrome extension to automatically send LinkedIn connection req...
 │   └── tech:  JavaScript
 │
-├── unsender-for-facebook
+├── 🔥 unsender-for-facebook
 │   ├── desc:  Unsend all your sent messages in any Facebook Messenger conver...
 │   └── tech:  JavaScript
 │
-├── unsender-for-instagram
+├── 🔥 unsender-for-instagram
 │   ├── desc:  Unsend all your sent messages in any Instagram DM conversation...
 │   └── tech:  JavaScript
 │
-├── OpenBoil
+├── 🎯 OpenBoil
 │   ├── desc:  The ultimate open-source SaaS boilerplate. Ship in record time...
 │   └── tech:  TypeScript
 │
-├── seo-article-generator
+├── 🐍 seo-article-generator
 │   ├── desc:  The most powerful open-source AI-powered SEO article generator...
 │   └── tech:  Python
 │
-├── daily-country-search-trends
+├── 🔥 daily-country-search-trends
 │   ├── desc:  Chrome extension that automatically posts the top 10 Google se...
 │   └── tech:  JavaScript
 │
-├── BoomAi
+├── 🎨 BoomAi
 │   ├── desc:  AI-powered content generation platform built with   Next.js 14...
 │   └── tech:  SCSS
 │
-├── Boomash
+├── 🎨 Boomash
 │   ├── desc:  Laravel/Vue Js Admin Dashboard
 │   └── tech:  SCSS
 │
-├── seektalent
+├── 🎯 seektalent
 │   ├── desc:  the ultimate talent hub platform
 │   └── tech:  TypeScript
 │
-├── Melkeya
+├── 🔥 Melkeya
 │   ├── desc:  Nextjs/Nodejs Real estate platform for the UAE market
 │   └── tech:  JavaScript
 │
-└── AgroCare
+└── 🐍 AgroCare
     ├── desc:  Plant disease detection & comparison using LLM agents, bcrypt ...
     └── tech:  Python
 
