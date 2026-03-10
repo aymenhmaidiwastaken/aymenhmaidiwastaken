@@ -75,7 +75,7 @@ Status    "i code to cure my depression"
 <summary><code>Shopify-Seo</code> — JavaScript</summary>
 <br/>
 
-> Free Chrome extension for comprehensive Shopify SEO analysis.
+> Free Chrome extension for comprehensive Shopify SEO analysis. 50+ checks, rea...
 
 [![View Repo](https://img.shields.io/badge/View_Repo-0d1117?style=for-the-badge&logoColor=00ff41)](https://github.com/aymenhmaidiwastaken/Shopify-Seo)
 </details>
@@ -84,7 +84,7 @@ Status    "i code to cure my depression"
 <summary><code>Css-Sniffer</code> — JavaScript</summary>
 <br/>
 
-> The ultimate CSS inspection & design system extraction Chrome extension.
+> The ultimate CSS inspection & design system extraction Chrome extension — hov...
 
 [![View Repo](https://img.shields.io/badge/View_Repo-0d1117?style=for-the-badge&logoColor=00ff41)](https://github.com/aymenhmaidiwastaken/Css-Sniffer)
 </details>
@@ -93,7 +93,7 @@ Status    "i code to cure my depression"
 <summary><code>linkedin-auto-connect</code> — JavaScript</summary>
 <br/>
 
-> Chrome extension to automatically send LinkedIn connection requests.
+> Chrome extension to automatically send LinkedIn connection requests — bulk co...
 
 [![View Repo](https://img.shields.io/badge/View_Repo-0d1117?style=for-the-badge&logoColor=00ff41)](https://github.com/aymenhmaidiwastaken/linkedin-auto-connect)
 </details>
@@ -102,7 +102,7 @@ Status    "i code to cure my depression"
 <summary><code>unsender-for-facebook</code> — JavaScript</summary>
 <br/>
 
-> Unsend all your sent messages in any Facebook Messenger conversation.
+> Unsend all your sent messages in any Facebook Messenger conversation with one...
 
 [![View Repo](https://img.shields.io/badge/View_Repo-0d1117?style=for-the-badge&logoColor=00ff41)](https://github.com/aymenhmaidiwastaken/unsender-for-facebook)
 </details>
@@ -111,7 +111,7 @@ Status    "i code to cure my depression"
 <summary><code>unsender-for-instagram</code> — JavaScript</summary>
 <br/>
 
-> Unsend all your sent messages in any Instagram DM conversation.
+> Unsend all your sent messages in any Instagram DM conversation with one click...
 
 [![View Repo](https://img.shields.io/badge/View_Repo-0d1117?style=for-the-badge&logoColor=00ff41)](https://github.com/aymenhmaidiwastaken/unsender-for-instagram)
 </details>
@@ -120,7 +120,7 @@ Status    "i code to cure my depression"
 <summary><code>OpenBoil</code> — TypeScript</summary>
 <br/>
 
-> The ultimate open-source SaaS boilerplate. Ship in record time.
+> The ultimate open-source SaaS boilerplate. Ship in record time with Astro 5, ...
 
 [![View Repo](https://img.shields.io/badge/View_Repo-0d1117?style=for-the-badge&logoColor=00ff41)](https://github.com/aymenhmaidiwastaken/OpenBoil)
 </details>
@@ -129,7 +129,7 @@ Status    "i code to cure my depression"
 <summary><code>seo-article-generator</code> — Python</summary>
 <br/>
 
-> The most powerful open-source AI-powered SEO article generator.
+> The most powerful open-source AI-powered SEO article generator. Crawl thousan...
 
 [![View Repo](https://img.shields.io/badge/View_Repo-0d1117?style=for-the-badge&logoColor=00ff41)](https://github.com/aymenhmaidiwastaken/seo-article-generator)
 </details>
@@ -138,7 +138,7 @@ Status    "i code to cure my depression"
 <summary><code>daily-country-search-trends</code> — JavaScript</summary>
 <br/>
 
-> Chrome extension that automatically posts the top 10 Google search trends.
+> Chrome extension that automatically posts the top 10 Google search trends for...
 
 [![View Repo](https://img.shields.io/badge/View_Repo-0d1117?style=for-the-badge&logoColor=00ff41)](https://github.com/aymenhmaidiwastaken/daily-country-search-trends)
 </details>
@@ -147,7 +147,7 @@ Status    "i code to cure my depression"
 <summary><code>BoomAi</code> — SCSS</summary>
 <br/>
 
-> AI-powered content generation platform built with Next.js 14.
+> AI-powered content generation platform built with   Next.js 14 and Laravel 11
 
 [![View Repo](https://img.shields.io/badge/View_Repo-0d1117?style=for-the-badge&logoColor=00ff41)](https://github.com/aymenhmaidiwastaken/BoomAi)
 </details>
@@ -183,11 +183,10 @@ Status    "i code to cure my depression"
 <summary><code>AgroCare</code> — Python</summary>
 <br/>
 
-> Plant disease detection & comparison using LLM agents.
+> Plant disease detection & comparison using LLM agents, bcrypt auth, and Mongo...
 
 [![View Repo](https://img.shields.io/badge/View_Repo-0d1117?style=for-the-badge&logoColor=00ff41)](https://github.com/aymenhmaidiwastaken/AgroCare)
 </details>
-
 <!-- PROJECTS-END -->
 
 ---
