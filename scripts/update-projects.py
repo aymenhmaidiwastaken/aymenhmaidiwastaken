@@ -9,22 +9,6 @@ README_PATH = os.path.join(os.path.dirname(__file__), "..", "README.md")
 # Repos to exclude (e.g. the profile repo itself)
 EXCLUDE = {f"{USERNAME}", f"{USERNAME.lower()}"}
 
-# Emoji mapping by dominant language or topic
-LANG_EMOJI = {
-    "Python": "\U0001f40d",
-    "JavaScript": "\U0001f525",
-    "TypeScript": "\U0001f3af",
-    "PHP": "\U0001f4e6",
-    "Vue": "\U0001f4ca",
-    "C": "\u2699\ufe0f",
-    "C++": "\u2699\ufe0f",
-    "HTML": "\U0001f310",
-    "CSS": "\U0001f3a8",
-    "SCSS": "\U0001f3a8",
-    "Shell": "\U0001f4bb",
-    "Jupyter Notebook": "\U0001f4d3",
-}
-DEFAULT_EMOJI = "\U0001f4c2"
 
 
 def fetch_repos():
@@ -65,12 +49,11 @@ def build_tree(repos):
         if len(desc) > 65:
             desc = desc[:62] + "..."
         lang = repo["language"] or "Unknown"
-        emoji = LANG_EMOJI.get(lang, DEFAULT_EMOJI)
         is_last = i == count - 1
         connector = "\u2514\u2500\u2500" if is_last else "\u251c\u2500\u2500"
         pipe = " " if is_last else "\u2502"
 
-        tree_lines.append(f"{connector} {emoji} {name}")
+        tree_lines.append(f"{connector} {name}")
         tree_lines.append(f"{pipe}   \u251c\u2500\u2500 desc:  {desc}")
         tree_lines.append(f"{pipe}   \u2514\u2500\u2500 tech:  {lang}")
         if not is_last:
@@ -86,7 +69,7 @@ def build_tree(repos):
         name = repo["name"]
         safe_name = name.replace("-", "--")
         badge_lines.append(
-            f"[![{name}](https://img.shields.io/badge/{safe_name}-0d1117?style=for-the-badge&logoColor=00ff41)](https://github.com/{USERNAME}/{name})"
+            f'<a href="https://github.com/{USERNAME}/{name}"><img src="https://img.shields.io/badge/{safe_name}-0d1117?style=for-the-badge&logoColor=00ff41" style="border: 1px solid #00ff41; border-radius: 4px;"></a>'
         )
     badge_lines.append("")
     badge_lines.append("</div>")
