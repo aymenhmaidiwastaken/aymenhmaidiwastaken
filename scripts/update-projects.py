@@ -160,7 +160,7 @@ def generate_tree_svg(projects):
 
     lines.append(f'<line x1="{branch_x}" y1="{vline_y1}" x2="{branch_x}" y2="{vline_y2}" stroke="#00ff41" stroke-width="1.5" opacity="0.6" class="vline"/>')
 
-    for i, (name, desc, tech) in enumerate(projects):
+    for i, (name, desc, _full_desc, tech) in enumerate(projects):
         is_last = i == n - 1
         by = proj_y(i)
 
@@ -211,11 +211,10 @@ def build_content(repos):
     projects = []
     for repo in filtered:
         name = repo["name"]
-        desc = repo["description"] or "No description"
-        if len(desc) > 80:
-            desc = desc[:77] + "..."
+        full_desc = repo["description"] or "No description"
+        short_desc = full_desc[:77] + "..." if len(full_desc) > 80 else full_desc
         tech = detect_tech(repo)
-        projects.append((name, desc, tech))
+        projects.append((name, short_desc, full_desc, tech))
 
     # Generate and save the SVG
     svg_content = generate_tree_svg(projects)
@@ -234,12 +233,12 @@ def build_content(repos):
         '',
     ]
 
-    for name, desc, tech in projects:
+    for name, _short_desc, full_desc, tech in projects:
         section_lines.append('<details>')
         section_lines.append(f'<summary><code>{name}</code> \u2014 {tech}</summary>')
         section_lines.append('<br/>')
         section_lines.append('')
-        section_lines.append(f'> {desc}')
+        section_lines.append(f'> {full_desc}')
         section_lines.append('')
         section_lines.append(f'[![View Repo](https://img.shields.io/badge/View_Repo-0d1117?style=for-the-badge&logoColor=00ff41)](https://github.com/{USERNAME}/{name})')
         section_lines.append('</details>')
