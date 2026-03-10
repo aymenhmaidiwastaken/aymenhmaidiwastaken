@@ -12,6 +12,22 @@ SVG_PATH = os.path.join(os.path.dirname(__file__), "..", "assets", "projects-tre
 EXCLUDE = {f"{USERNAME}", f"{USERNAME.lower()}"}
 
 # Known frameworks/tools to detect from repo topics
+# Manual framework overrides for repos without topics
+REPO_TECH_OVERRIDE = {
+    "Shopify-Seo": "Chrome Extension",
+    "Css-Sniffer": "Chrome Extension",
+    "linkedin-auto-connect": "Chrome Extension",
+    "unsender-for-facebook": "Chrome Extension",
+    "unsender-for-instagram": "Chrome Extension",
+    "daily-country-search-trends": "Chrome Extension",
+    "OpenBoil": "Next.js",
+    "BoomAi": "Next.js",
+    "Boomash": "Laravel",
+    "seektalent": "Next.js",
+    "Melkeya": "Next.js",
+}
+
+# Known frameworks/tools to detect from repo topics
 FRAMEWORK_KEYWORDS = {
     "nextjs": "Next.js", "next": "Next.js",
     "react": "React", "reactjs": "React",
@@ -34,7 +50,10 @@ FRAMEWORK_KEYWORDS = {
 
 
 def detect_tech(repo):
-    """Detect framework/tech from topics, falling back to language."""
+    """Detect framework/tech from overrides, topics, or language."""
+    name = repo["name"]
+    if name in REPO_TECH_OVERRIDE:
+        return REPO_TECH_OVERRIDE[name]
     topics = repo.get("topics", [])
     for topic in topics:
         t = topic.lower()
@@ -206,7 +225,9 @@ def build_content(repos):
     # Build the README section
     section_lines = [
         '<div align="center">',
-        '  <img src="./assets/projects-tree.svg" width="500" alt="Projects Tree"/>',
+        '  <a href="https://github.com/aymenhmaidiwastaken">',
+        '    <img src="./assets/projects-tree.svg" width="500" alt="Projects Tree"/>',
+        '  </a>',
         '</div>',
         '',
         '<br/>',
