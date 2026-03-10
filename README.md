@@ -74,6 +74,15 @@ Status    "i code to cure my depression"
 <br/>
 
 <details>
+<summary><code>OpenBoilerplate</code> — TypeScript</summary>
+<br/>
+
+> The ultimate open-source SaaS boilerplate. Ship in record time with Astro 5, React 19, Tailwind CSS 4, and shadcn/ui. Swap auth, payments, database & AI providers with one config change. 30+ production-ready pages included.
+
+[![View Repo](https://img.shields.io/badge/View_Repo-0d1117?style=for-the-badge&logoColor=00ff41)](https://github.com/aymenhmaidiwastaken/OpenBoilerplate)
+</details>
+
+<details>
 <summary><code>Shopify-Seo</code> — Chrome Extension</summary>
 <br/>
 
@@ -116,15 +125,6 @@ Status    "i code to cure my depression"
 > Unsend all your sent messages in any Instagram DM conversation with one click. Chrome extension that scrolls through your entire chat history automatically.
 
 [![View Repo](https://img.shields.io/badge/View_Repo-0d1117?style=for-the-badge&logoColor=00ff41)](https://github.com/aymenhmaidiwastaken/unsender-for-instagram)
-</details>
-
-<details>
-<summary><code>OpenBoil</code> — Next.js</summary>
-<br/>
-
-> The ultimate open-source SaaS boilerplate. Ship in record time with Astro 5, React 19, Tailwind CSS 4, and shadcn/ui. Swap auth, payments, database & AI providers with one config change. 30+ production-ready pages included.
-
-[![View Repo](https://img.shields.io/badge/View_Repo-0d1117?style=for-the-badge&logoColor=00ff41)](https://github.com/aymenhmaidiwastaken/OpenBoil)
 </details>
 
 <details>
