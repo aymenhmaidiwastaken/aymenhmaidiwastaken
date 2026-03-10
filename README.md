@@ -77,7 +77,7 @@ Status    "i code to cure my depression"
 <summary><code>Shopify-Seo</code> — Chrome Extension</summary>
 <br/>
 
-> Free Chrome extension for comprehensive Shopify SEO analysis. 50+ checks, rea...
+> Free Chrome extension for comprehensive Shopify SEO analysis. 50+ checks, real Core Web Vitals, site crawler, Google   rank tracker, competitor comparison, internal link map, and PDF reports. No API keys, no signup, no cost.
 
 [![View Repo](https://img.shields.io/badge/View_Repo-0d1117?style=for-the-badge&logoColor=00ff41)](https://github.com/aymenhmaidiwastaken/Shopify-Seo)
 </details>
@@ -86,7 +86,7 @@ Status    "i code to cure my depression"
 <summary><code>Css-Sniffer</code> — Chrome Extension</summary>
 <br/>
 
-> The ultimate CSS inspection & design system extraction Chrome extension — hov...
+> The ultimate CSS inspection & design system extraction Chrome extension — hover-inspect, live-edit, extract design   tokens, audit performance, detect patterns, export to React/Vue/Svelte/Tailwind, and more. Zero dependencies.
 
 [![View Repo](https://img.shields.io/badge/View_Repo-0d1117?style=for-the-badge&logoColor=00ff41)](https://github.com/aymenhmaidiwastaken/Css-Sniffer)
 </details>
@@ -95,7 +95,7 @@ Status    "i code to cure my depression"
 <summary><code>linkedin-auto-connect</code> — Chrome Extension</summary>
 <br/>
 
-> Chrome extension to automatically send LinkedIn connection requests — bulk co...
+> Chrome extension to automatically send LinkedIn connection requests — bulk connect from My Network or Search results with smart delays and weekly limit tracking
 
 [![View Repo](https://img.shields.io/badge/View_Repo-0d1117?style=for-the-badge&logoColor=00ff41)](https://github.com/aymenhmaidiwastaken/linkedin-auto-connect)
 </details>
@@ -104,7 +104,7 @@ Status    "i code to cure my depression"
 <summary><code>unsender-for-facebook</code> — Chrome Extension</summary>
 <br/>
 
-> Unsend all your sent messages in any Facebook Messenger conversation with one...
+> Unsend all your sent messages in any Facebook Messenger conversation with one click. Chrome extension that scrolls through your entire chat history automatically.
 
 [![View Repo](https://img.shields.io/badge/View_Repo-0d1117?style=for-the-badge&logoColor=00ff41)](https://github.com/aymenhmaidiwastaken/unsender-for-facebook)
 </details>
@@ -113,7 +113,7 @@ Status    "i code to cure my depression"
 <summary><code>unsender-for-instagram</code> — Chrome Extension</summary>
 <br/>
 
-> Unsend all your sent messages in any Instagram DM conversation with one click...
+> Unsend all your sent messages in any Instagram DM conversation with one click. Chrome extension that scrolls through your entire chat history automatically.
 
 [![View Repo](https://img.shields.io/badge/View_Repo-0d1117?style=for-the-badge&logoColor=00ff41)](https://github.com/aymenhmaidiwastaken/unsender-for-instagram)
 </details>
@@ -122,7 +122,7 @@ Status    "i code to cure my depression"
 <summary><code>OpenBoil</code> — Next.js</summary>
 <br/>
 
-> The ultimate open-source SaaS boilerplate. Ship in record time with Astro 5, ...
+> The ultimate open-source SaaS boilerplate. Ship in record time with Astro 5, React 19, Tailwind CSS 4, and shadcn/ui. Swap auth, payments, database & AI providers with one config change. 30+ production-ready pages included.
 
 [![View Repo](https://img.shields.io/badge/View_Repo-0d1117?style=for-the-badge&logoColor=00ff41)](https://github.com/aymenhmaidiwastaken/OpenBoil)
 </details>
@@ -131,7 +131,7 @@ Status    "i code to cure my depression"
 <summary><code>seo-article-generator</code> — Python</summary>
 <br/>
 
-> The most powerful open-source AI-powered SEO article generator. Crawl thousan...
+> The most powerful open-source AI-powered SEO article generator. Crawl thousands of articles from 5 search engines,   extract clean content, and rewrite them into unique SEO-optimized articles using local AI (Ollama) — all from a single    command. No API keys. No limits. Free forever.
 
 [![View Repo](https://img.shields.io/badge/View_Repo-0d1117?style=for-the-badge&logoColor=00ff41)](https://github.com/aymenhmaidiwastaken/seo-article-generator)
 </details>
@@ -140,7 +140,7 @@ Status    "i code to cure my depression"
 <summary><code>daily-country-search-trends</code> — Chrome Extension</summary>
 <br/>
 
-> Chrome extension that automatically posts the top 10 Google search trends for...
+> Chrome extension that automatically posts the top 10 Google search trends for 195 countries to X/Twitter   every day. Powered by Google Trends.
 
 [![View Repo](https://img.shields.io/badge/View_Repo-0d1117?style=for-the-badge&logoColor=00ff41)](https://github.com/aymenhmaidiwastaken/daily-country-search-trends)
 </details>
@@ -185,7 +185,7 @@ Status    "i code to cure my depression"
 <summary><code>AgroCare</code> — Python</summary>
 <br/>
 
-> Plant disease detection & comparison using LLM agents, bcrypt auth, and Mongo...
+> Plant disease detection & comparison using LLM agents, bcrypt auth, and MongoDB history
 
 [![View Repo](https://img.shields.io/badge/View_Repo-0d1117?style=for-the-badge&logoColor=00ff41)](https://github.com/aymenhmaidiwastaken/AgroCare)
 </details>
