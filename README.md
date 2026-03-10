@@ -127,19 +127,19 @@ projects/
 
 <div align="center">
 
-<a href="https://github.com/aymenhmaidiwastaken/Shopify-Seo"><img src="./assets/badges/project-shopify-seo.svg" alt="Shopify-Seo"></a>
-<a href="https://github.com/aymenhmaidiwastaken/Css-Sniffer"><img src="./assets/badges/project-css-sniffer.svg" alt="Css-Sniffer"></a>
-<a href="https://github.com/aymenhmaidiwastaken/linkedin-auto-connect"><img src="./assets/badges/project-linkedin-auto-connect.svg" alt="linkedin-auto-connect"></a>
-<a href="https://github.com/aymenhmaidiwastaken/unsender-for-facebook"><img src="./assets/badges/project-unsender-for-facebook.svg" alt="unsender-for-facebook"></a>
-<a href="https://github.com/aymenhmaidiwastaken/unsender-for-instagram"><img src="./assets/badges/project-unsender-for-instagram.svg" alt="unsender-for-instagram"></a>
-<a href="https://github.com/aymenhmaidiwastaken/OpenBoil"><img src="./assets/badges/project-openboil.svg" alt="OpenBoil"></a>
-<a href="https://github.com/aymenhmaidiwastaken/seo-article-generator"><img src="./assets/badges/project-seo-article-generator.svg" alt="seo-article-generator"></a>
-<a href="https://github.com/aymenhmaidiwastaken/daily-country-search-trends"><img src="./assets/badges/project-daily-country-search-trends.svg" alt="daily-country-search-trends"></a>
-<a href="https://github.com/aymenhmaidiwastaken/BoomAi"><img src="./assets/badges/project-boomai.svg" alt="BoomAi"></a>
-<a href="https://github.com/aymenhmaidiwastaken/Boomash"><img src="./assets/badges/project-boomash.svg" alt="Boomash"></a>
-<a href="https://github.com/aymenhmaidiwastaken/seektalent"><img src="./assets/badges/project-seektalent.svg" alt="seektalent"></a>
-<a href="https://github.com/aymenhmaidiwastaken/Melkeya"><img src="./assets/badges/project-melkeya.svg" alt="Melkeya"></a>
-<a href="https://github.com/aymenhmaidiwastaken/AgroCare"><img src="./assets/badges/project-agrocare.svg" alt="AgroCare"></a>
+[![Shopify-Seo](https://img.shields.io/badge/%20-Shopify--Seo-0d1117?style=for-the-badge&logoColor=00ff41&labelColor=00ff41)](https://github.com/aymenhmaidiwastaken/Shopify-Seo)
+[![Css-Sniffer](https://img.shields.io/badge/%20-Css--Sniffer-0d1117?style=for-the-badge&logoColor=00ff41&labelColor=00ff41)](https://github.com/aymenhmaidiwastaken/Css-Sniffer)
+[![linkedin-auto-connect](https://img.shields.io/badge/%20-linkedin--auto--connect-0d1117?style=for-the-badge&logoColor=00ff41&labelColor=00ff41)](https://github.com/aymenhmaidiwastaken/linkedin-auto-connect)
+[![unsender-for-facebook](https://img.shields.io/badge/%20-unsender--for--facebook-0d1117?style=for-the-badge&logoColor=00ff41&labelColor=00ff41)](https://github.com/aymenhmaidiwastaken/unsender-for-facebook)
+[![unsender-for-instagram](https://img.shields.io/badge/%20-unsender--for--instagram-0d1117?style=for-the-badge&logoColor=00ff41&labelColor=00ff41)](https://github.com/aymenhmaidiwastaken/unsender-for-instagram)
+[![OpenBoil](https://img.shields.io/badge/%20-OpenBoil-0d1117?style=for-the-badge&logoColor=00ff41&labelColor=00ff41)](https://github.com/aymenhmaidiwastaken/OpenBoil)
+[![seo-article-generator](https://img.shields.io/badge/%20-seo--article--generator-0d1117?style=for-the-badge&logoColor=00ff41&labelColor=00ff41)](https://github.com/aymenhmaidiwastaken/seo-article-generator)
+[![daily-country-search-trends](https://img.shields.io/badge/%20-daily--country--search--trends-0d1117?style=for-the-badge&logoColor=00ff41&labelColor=00ff41)](https://github.com/aymenhmaidiwastaken/daily-country-search-trends)
+[![BoomAi](https://img.shields.io/badge/%20-BoomAi-0d1117?style=for-the-badge&logoColor=00ff41&labelColor=00ff41)](https://github.com/aymenhmaidiwastaken/BoomAi)
+[![Boomash](https://img.shields.io/badge/%20-Boomash-0d1117?style=for-the-badge&logoColor=00ff41&labelColor=00ff41)](https://github.com/aymenhmaidiwastaken/Boomash)
+[![seektalent](https://img.shields.io/badge/%20-seektalent-0d1117?style=for-the-badge&logoColor=00ff41&labelColor=00ff41)](https://github.com/aymenhmaidiwastaken/seektalent)
+[![Melkeya](https://img.shields.io/badge/%20-Melkeya-0d1117?style=for-the-badge&logoColor=00ff41&labelColor=00ff41)](https://github.com/aymenhmaidiwastaken/Melkeya)
+[![AgroCare](https://img.shields.io/badge/%20-AgroCare-0d1117?style=for-the-badge&logoColor=00ff41&labelColor=00ff41)](https://github.com/aymenhmaidiwastaken/AgroCare)
 
 </div>
 <!-- PROJECTS-END -->
@@ -152,33 +152,33 @@ projects/
 
 **`// Languages`**
 
-<img src="./assets/badges/python.svg" alt="Python">
-<img src="./assets/badges/typescript.svg" alt="TypeScript">
-<img src="./assets/badges/javascript.svg" alt="JavaScript">
-<img src="./assets/badges/php.svg" alt="PHP">
-<img src="./assets/badges/c.svg" alt="C">
-<img src="./assets/badges/html5.svg" alt="HTML5">
-<img src="./assets/badges/css3.svg" alt="CSS3">
+![Python](https://img.shields.io/badge/%20-Python-0d1117?style=for-the-badge&logo=python&logoColor=00ff41&labelColor=00ff41)
+![TypeScript](https://img.shields.io/badge/%20-TypeScript-0d1117?style=for-the-badge&logo=typescript&logoColor=00ff41&labelColor=00ff41)
+![JavaScript](https://img.shields.io/badge/%20-JavaScript-0d1117?style=for-the-badge&logo=javascript&logoColor=00ff41&labelColor=00ff41)
+![PHP](https://img.shields.io/badge/%20-PHP-0d1117?style=for-the-badge&logo=php&logoColor=00ff41&labelColor=00ff41)
+![C](https://img.shields.io/badge/%20-C-0d1117?style=for-the-badge&logo=c&logoColor=00ff41&labelColor=00ff41)
+![HTML5](https://img.shields.io/badge/%20-HTML5-0d1117?style=for-the-badge&logo=html5&logoColor=00ff41&labelColor=00ff41)
+![CSS3](https://img.shields.io/badge/%20-CSS3-0d1117?style=for-the-badge&logo=css3&logoColor=00ff41&labelColor=00ff41)
 
 **`// Frameworks & Libraries`**
 
-<img src="./assets/badges/nextjs.svg" alt="Next.js">
-<img src="./assets/badges/laravel.svg" alt="Laravel">
-<img src="./assets/badges/vuejs.svg" alt="Vue.js">
-<img src="./assets/badges/react.svg" alt="React">
-<img src="./assets/badges/nodejs.svg" alt="Node.js">
-<img src="./assets/badges/tailwind.svg" alt="Tailwind">
-<img src="./assets/badges/scss.svg" alt="SCSS">
+![Next.js](https://img.shields.io/badge/%20-Next.js-0d1117?style=for-the-badge&logo=next.js&logoColor=00ff41&labelColor=00ff41)
+![Laravel](https://img.shields.io/badge/%20-Laravel-0d1117?style=for-the-badge&logo=laravel&logoColor=00ff41&labelColor=00ff41)
+![Vue.js](https://img.shields.io/badge/%20-Vue.js-0d1117?style=for-the-badge&logo=vue.js&logoColor=00ff41&labelColor=00ff41)
+![React](https://img.shields.io/badge/%20-React-0d1117?style=for-the-badge&logo=react&logoColor=00ff41&labelColor=00ff41)
+![Node.js](https://img.shields.io/badge/%20-Node.js-0d1117?style=for-the-badge&logo=node.js&logoColor=00ff41&labelColor=00ff41)
+![TailwindCSS](https://img.shields.io/badge/%20-Tailwind-0d1117?style=for-the-badge&logo=tailwindcss&logoColor=00ff41&labelColor=00ff41)
+![SCSS](https://img.shields.io/badge/%20-SCSS-0d1117?style=for-the-badge&logo=sass&logoColor=00ff41&labelColor=00ff41)
 
 **`// Tools & Infrastructure`**
 
-<img src="./assets/badges/mongodb.svg" alt="MongoDB">
-<img src="./assets/badges/mysql.svg" alt="MySQL">
-<img src="./assets/badges/docker.svg" alt="Docker">
-<img src="./assets/badges/git.svg" alt="Git">
-<img src="./assets/badges/linux.svg" alt="Linux">
-<img src="./assets/badges/vscode.svg" alt="VS Code">
-<img src="./assets/badges/github.svg" alt="GitHub">
+![MongoDB](https://img.shields.io/badge/%20-MongoDB-0d1117?style=for-the-badge&logo=mongodb&logoColor=00ff41&labelColor=00ff41)
+![MySQL](https://img.shields.io/badge/%20-MySQL-0d1117?style=for-the-badge&logo=mysql&logoColor=00ff41&labelColor=00ff41)
+![Docker](https://img.shields.io/badge/%20-Docker-0d1117?style=for-the-badge&logo=docker&logoColor=00ff41&labelColor=00ff41)
+![Git](https://img.shields.io/badge/%20-Git-0d1117?style=for-the-badge&logo=git&logoColor=00ff41&labelColor=00ff41)
+![Linux](https://img.shields.io/badge/%20-Linux-0d1117?style=for-the-badge&logo=linux&logoColor=00ff41&labelColor=00ff41)
+![VS Code](https://img.shields.io/badge/%20-VS_Code-0d1117?style=for-the-badge&logo=visualstudiocode&logoColor=00ff41&labelColor=00ff41)
+![GitHub](https://img.shields.io/badge/%20-GitHub-0d1117?style=for-the-badge&logo=github&logoColor=00ff41&labelColor=00ff41)
 
 </div>
 
@@ -190,10 +190,10 @@ projects/
 
 <br/>
 
-<a href="https://linkedin.com/in/aymenhmaidi"><img src="./assets/badges/linkedin.svg" alt="LinkedIn"></a>
-<a href="https://instagram.com/aymenhmaidi"><img src="./assets/badges/instagram.svg" alt="Instagram"></a>
-<a href="https://facebook.com/Aymenhmaidi69"><img src="./assets/badges/facebook.svg" alt="Facebook"></a>
-<a href="https://youtube.com/@sangour.mp4"><img src="./assets/badges/youtube.svg" alt="YouTube"></a>
+[![LinkedIn](https://img.shields.io/static/v1?message=LinkedIn&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwZmY0MSI+PHBhdGggZD0iTTIwLjQ0NyAyMC40NTJoLTMuNTU0di01LjU2OWMwLTEuMzI4LS4wMjctMy4wMzctMS44NTItMy4wMzctMS44NTMgMC0yLjEzNiAxLjQ0NS0yLjEzNiAyLjkzOXY1LjY2N0g5LjM1MVY5aDMuNDE0djEuNTYxaC4wNDZjLjQ3Ny0uOSAxLjYzNy0xLjg1IDMuMzctMS44NSAzLjYwMSAwIDQuMjY3IDIuMzcgNC4yNjcgNS40NTV2Ni4yODZ6TTUuMzM3IDcuNDMzYTIuMDYyIDIuMDYyIDAgMCAxLTIuMDYzLTIuMDY1IDIuMDY0IDIuMDY0IDAgMSAxIDIuMDYzIDIuMDY1em0xLjc4MiAxMy4wMTlIMy41NTVWOWgzLjU2NHYxMS40NTJ6TTIyLjIyNSAwSDEuNzcxQy43OTIgMCAwIC43NzQgMCAxLjcyOXYyMC41NDJDMCAyMy4yMjcuNzkyIDI0IDEuNzcxIDI0aDIwLjQ1MUMyMy4yIDI0IDI0IDIzLjIyNyAyNCAyMi4yNzFWMS43MjlDMjQgLjc3NCAyMy4yIDAgMjIuMjIyIDBoLjAwM3oiLz48L3N2Zz4=&label=%20&color=0d1117&logoColor=00ff41&labelColor=00ff41&style=for-the-badge)](https://linkedin.com/in/aymenhmaidi)
+[![Instagram](https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=%20&color=0d1117&logoColor=00ff41&labelColor=00ff41&style=for-the-badge)](https://instagram.com/aymenhmaidi)
+[![Facebook](https://img.shields.io/static/v1?message=Facebook&logo=facebook&label=%20&color=0d1117&logoColor=00ff41&labelColor=00ff41&style=for-the-badge)](https://facebook.com/Aymenhmaidi69)
+[![YouTube](https://img.shields.io/static/v1?message=YouTube&logo=youtube&label=%20&color=0d1117&logoColor=00ff41&labelColor=00ff41&style=for-the-badge)](https://youtube.com/@sangour.mp4)
 
 <br/>
 

@@ -5,18 +5,6 @@ import os
 
 USERNAME = "aymenhmaidiwastaken"
 README_PATH = os.path.join(os.path.dirname(__file__), "..", "README.md")
-BADGES_DIR = os.path.join(os.path.dirname(__file__), "..", "assets", "badges")
-
-
-def make_badge_svg(text):
-    """Create a for-the-badge style SVG with green border."""
-    upper = text.upper()
-    width = max(int(len(upper) * 9.5 + 24), 60)
-    height = 28
-    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="{width+2}" height="{height+2}" viewBox="0 0 {width+2} {height+2}">
-  <rect x="1" y="1" width="{width}" height="{height}" rx="3" fill="#0d1117" stroke="#00ff41" stroke-width="1"/>
-  <text x="{(width+2)/2}" y="{height/2 + 5}" fill="#00ff41" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" font-size="10" font-weight="bold" text-anchor="middle" letter-spacing="1.1">{upper}</text>
-</svg>'''
 
 # Repos to exclude (e.g. the profile repo itself)
 EXCLUDE = {f"{USERNAME}", f"{USERNAME.lower()}"}
@@ -75,18 +63,13 @@ def build_tree(repos):
     tree_lines.append(f"{count} directories, \u221e lines of code")
     tree_lines.append("```")
 
-    # Build badge links using local SVG files with green borders
-    os.makedirs(BADGES_DIR, exist_ok=True)
+    # Build badge links with green accent (labelColor=00ff41)
     badge_lines = ['<div align="center">', ""]
     for repo in filtered:
         name = repo["name"]
-        slug = name.lower().replace(" ", "-")
-        svg_content = make_badge_svg(name)
-        svg_path = os.path.join(BADGES_DIR, f"project-{slug}.svg")
-        with open(svg_path, "w", encoding="utf-8") as f:
-            f.write(svg_content)
+        safe_name = name.replace("-", "--")
         badge_lines.append(
-            f'<a href="https://github.com/{USERNAME}/{name}"><img src="./assets/badges/project-{slug}.svg" alt="{name}"></a>'
+            f"[![{name}](https://img.shields.io/badge/%20-{safe_name}-0d1117?style=for-the-badge&logoColor=00ff41&labelColor=00ff41)](https://github.com/{USERNAME}/{name})"
         )
     badge_lines.append("")
     badge_lines.append("</div>")
