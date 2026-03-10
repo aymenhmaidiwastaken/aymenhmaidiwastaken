@@ -2,13 +2,14 @@ import json
 import urllib.request
 import re
 import os
+import html
 
 USERNAME = "aymenhmaidiwastaken"
 README_PATH = os.path.join(os.path.dirname(__file__), "..", "README.md")
+SVG_PATH = os.path.join(os.path.dirname(__file__), "..", "assets", "projects-tree.svg")
 
 # Repos to exclude (e.g. the profile repo itself)
 EXCLUDE = {f"{USERNAME}", f"{USERNAME.lower()}"}
-
 
 
 def fetch_repos():
@@ -21,60 +22,163 @@ def fetch_repos():
         return json.loads(resp.read().decode())
 
 
-def build_tree(repos):
-    """Build the terminal tree + badge section."""
+def generate_tree_svg(projects):
+    """Generate an animated SVG tree with cascading reveal effect."""
+    n = len(projects)
+    font_size = 13
+    line_h = 26
+    pad_x = 24
+    pad_y = 40
+    branch_x = pad_x + 12
+    branch_h_len = 22
+    text_x = branch_x + branch_h_len + 10
+
+    max_name_len = max(len(p[0]) for p in projects)
+    width = max(int(text_x + max_name_len * 8.2 + pad_x), 500)
+
+    header_lines = 3
+    footer_lines = 2
+    total_lines = header_lines + n + footer_lines
+    height = int(pad_y + total_lines * line_h + 20)
+
+    cmd_y = pad_y + line_h
+    dir_y = cmd_y + line_h * 1.8
+
+    def proj_y(i):
+        return dir_y + (i + 1) * line_h
+
+    footer_y = proj_y(n - 1) + line_h * 1.5
+
+    vline_y1 = dir_y + 8
+    vline_y2 = proj_y(n - 1)
+    vline_len = vline_y2 - vline_y1
+
+    tree_start = 1.1
+    stagger = 0.22
+    branch_dur = 0.25
+    name_dur = 0.3
+    vline_dur = n * stagger
+
+    lines = []
+    lines.append(f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}">')
+    lines.append('<defs>')
+    lines.append('  <filter id="glow">')
+    lines.append('    <feGaussianBlur stdDeviation="2" result="blur"/>')
+    lines.append('    <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>')
+    lines.append('  </filter>')
+    lines.append('</defs>')
+    lines.append('<style>')
+    lines.append('  @keyframes fadeIn { from { opacity: 0 } to { opacity: 1 } }')
+    lines.append('  @keyframes slideIn { from { opacity: 0; transform: translateX(-8px) } to { opacity: 1; transform: translateX(0) } }')
+    lines.append(f'  @keyframes drawV {{ from {{ stroke-dashoffset: {vline_len:.0f} }} to {{ stroke-dashoffset: 0 }} }}')
+    lines.append(f'  @keyframes drawH {{ from {{ stroke-dashoffset: {branch_h_len} }} to {{ stroke-dashoffset: 0 }} }}')
+    lines.append('  .cmd { opacity: 0; animation: fadeIn 0.5s ease 0s forwards }')
+    lines.append(f'  .dir {{ opacity: 0; animation: fadeIn 0.4s ease 0.6s forwards }}')
+    lines.append(f'  .vline {{ stroke-dasharray: {vline_len:.0f}; stroke-dashoffset: {vline_len:.0f}; animation: drawV {vline_dur:.2f}s ease {tree_start}s forwards }}')
+
+    for i in range(n):
+        d = tree_start + i * stagger
+        nd = d + branch_dur
+        lines.append(f'  .hline-{i} {{ stroke-dasharray: {branch_h_len}; stroke-dashoffset: {branch_h_len}; animation: drawH {branch_dur}s ease {d:.2f}s forwards }}')
+        lines.append(f'  .name-{i} {{ opacity: 0; animation: slideIn {name_dur}s ease {nd:.2f}s forwards }}')
+
+    fd = tree_start + n * stagger + 0.4
+    lines.append(f'  .footer {{ opacity: 0; animation: fadeIn 0.6s ease {fd:.2f}s forwards }}')
+    lines.append("  text { font-family: 'JetBrains Mono','Fira Code','Courier New',monospace }")
+    lines.append('</style>')
+
+    lines.append(f'<rect width="{width}" height="{height}" rx="10" fill="#0d1117"/>')
+    lines.append(f'<rect width="{width}" height="{height}" rx="10" fill="none" stroke="#00ff41" stroke-width="0.5" opacity="0.3"/>')
+
+    lines.append('<circle cx="18" cy="16" r="5" fill="#ff5f56"/>')
+    lines.append('<circle cx="34" cy="16" r="5" fill="#ffbd2e"/>')
+    lines.append('<circle cx="50" cy="16" r="5" fill="#27c93f"/>')
+
+    lines.append(f'<text x="{pad_x}" y="{cmd_y}" fill="#4a9f4a" font-size="12" class="cmd">aymen@github</text>')
+    cmd2_x = pad_x + 12 * 7.2
+    lines.append(f'<text x="{cmd2_x}" y="{cmd_y}" fill="#555" font-size="12" class="cmd">:</text>')
+    cmd3_x = cmd2_x + 7.2
+    lines.append(f'<text x="{cmd3_x}" y="{cmd_y}" fill="#3a7abf" font-size="12" class="cmd">~</text>')
+    cmd4_x = cmd3_x + 7.2
+    lines.append(f'<text x="{cmd4_x}" y="{cmd_y}" fill="#ccc" font-size="12" class="cmd">$ tree ~/projects</text>')
+
+    lines.append(f'<text x="{pad_x}" y="{dir_y}" fill="#00ff41" font-size="{font_size}" font-weight="bold" class="dir" filter="url(#glow)">projects/</text>')
+
+    lines.append(f'<line x1="{branch_x}" y1="{vline_y1}" x2="{branch_x}" y2="{vline_y2}" stroke="#00ff41" stroke-width="1.5" opacity="0.6" class="vline"/>')
+
+    for i, (name, desc, tech) in enumerate(projects):
+        is_last = i == n - 1
+        by = proj_y(i)
+
+        hx1 = branch_x
+        hx2 = branch_x + branch_h_len
+        lines.append(f'<line x1="{hx1}" y1="{by}" x2="{hx2}" y2="{by}" stroke="#00ff41" stroke-width="1.5" opacity="0.6" class="hline-{i}"/>')
+
+        if is_last:
+            lines.append(f'<line x1="{branch_x}" y1="{by - 4}" x2="{branch_x}" y2="{by}" stroke="#00ff41" stroke-width="1.5" opacity="0.6" class="hline-{i}"/>')
+
+        ax = hx2
+        lines.append(f'<circle cx="{ax}" cy="{by}" r="2" fill="#00ff41" opacity="0" class="name-{i}"/>')
+
+        esc_name = html.escape(name)
+        lines.append(f'<text x="{text_x}" y="{by + 4}" fill="#00ff41" font-size="{font_size}" class="name-{i}" filter="url(#glow)">{esc_name}</text>')
+
+    lines.append(f'<text x="{pad_x}" y="{footer_y}" fill="#555" font-size="11" class="footer">{n} repositories, \u221e lines of code</text>')
+
+    lines.append('</svg>')
+    return '\n'.join(lines)
+
+
+def build_content(repos):
+    """Build the SVG tree + details dropdowns section."""
     filtered = [
         r for r in repos
         if not r["fork"]
         and r["name"] not in EXCLUDE
         and r["name"].lower() not in EXCLUDE
     ]
-    # Sort by most recently pushed
     filtered.sort(key=lambda r: r["pushed_at"], reverse=True)
 
     count = len(filtered)
-    tree_lines = [
-        "```",
-        "aymen@github:~$ tree ~/projects --info",
-        "",
-        "projects/",
-        "\u2502",
-    ]
 
-    badges = []
-
-    for i, repo in enumerate(filtered):
-        name = repo["name"]
-        desc = repo["description"] or "No description"
-        if len(desc) > 65:
-            desc = desc[:62] + "..."
-        lang = repo["language"] or "Unknown"
-        is_last = i == count - 1
-        connector = "\u2514\u2500\u2500" if is_last else "\u251c\u2500\u2500"
-        pipe = " " if is_last else "\u2502"
-
-        tree_lines.append(f"{connector} {name}")
-        tree_lines.append(f"{pipe}   \u251c\u2500\u2500 desc:  {desc}")
-        tree_lines.append(f"{pipe}   \u2514\u2500\u2500 tech:  {lang}")
-        if not is_last:
-            tree_lines.append("\u2502")
-
-    tree_lines.append("")
-    tree_lines.append(f"{count} directories, \u221e lines of code")
-    tree_lines.append("```")
-
-    # Build badge links
-    badge_lines = ['<div align="center">', ""]
+    # Prepare project data for SVG
+    projects = []
     for repo in filtered:
         name = repo["name"]
-        safe_name = name.replace("-", "--")
-        badge_lines.append(
-            f"[![{name}](https://img.shields.io/badge/{safe_name}-0d1117?style=for-the-badge&logoColor=00ff41)](https://github.com/{USERNAME}/{name})"
-        )
-    badge_lines.append("")
-    badge_lines.append("</div>")
+        desc = repo["description"] or "No description"
+        if len(desc) > 80:
+            desc = desc[:77] + "..."
+        lang = repo["language"] or "Unknown"
+        projects.append((name, desc, lang))
 
-    return count, "\n".join(tree_lines) + "\n\n" + "\n".join(badge_lines)
+    # Generate and save the SVG
+    svg_content = generate_tree_svg(projects)
+    with open(SVG_PATH, "w", encoding="utf-8") as f:
+        f.write(svg_content)
+
+    # Build the README section
+    section_lines = [
+        '<div align="center">',
+        '  <img src="./assets/projects-tree.svg" width="500" alt="Projects Tree"/>',
+        '</div>',
+        '',
+        '<br/>',
+        '',
+    ]
+
+    for name, desc, lang in projects:
+        safe_name = name.replace("-", "--")
+        section_lines.append('<details>')
+        section_lines.append(f'<summary><code>{name}</code> \u2014 {lang}</summary>')
+        section_lines.append('<br/>')
+        section_lines.append('')
+        section_lines.append(f'> {desc}')
+        section_lines.append('')
+        section_lines.append(f'[![View Repo](https://img.shields.io/badge/View_Repo-0d1117?style=for-the-badge&logoColor=00ff41)](https://github.com/{USERNAME}/{name})')
+        section_lines.append('</details>')
+        section_lines.append('')
+
+    return count, "\n".join(section_lines).rstrip()
 
 
 def update_readme(count, content):
@@ -98,7 +202,7 @@ def update_readme(count, content):
 
 def main():
     repos = fetch_repos()
-    count, content = build_tree(repos)
+    count, content = build_content(repos)
     update_readme(count, content)
     print(f"Updated README with {count} projects")
 

@@ -65,83 +65,129 @@ Status    "i code to cure my depression"
 ## `projects/`
 
 <!-- PROJECTS-START -->
-```
-aymen@github:~$ tree ~/projects --info
-
-projects/
-│
-├── Shopify-Seo
-│   ├── desc:  Free Chrome extension for comprehensive Shopify SEO analysis. ...
-│   └── tech:  JavaScript
-│
-├── Css-Sniffer
-│   ├── desc:  The ultimate CSS inspection & design system extraction Chrome ...
-│   └── tech:  JavaScript
-│
-├── linkedin-auto-connect
-│   ├── desc:  Chrome extension to automatically send LinkedIn connection req...
-│   └── tech:  JavaScript
-│
-├── unsender-for-facebook
-│   ├── desc:  Unsend all your sent messages in any Facebook Messenger conver...
-│   └── tech:  JavaScript
-│
-├── unsender-for-instagram
-│   ├── desc:  Unsend all your sent messages in any Instagram DM conversation...
-│   └── tech:  JavaScript
-│
-├── OpenBoil
-│   ├── desc:  The ultimate open-source SaaS boilerplate. Ship in record time...
-│   └── tech:  TypeScript
-│
-├── seo-article-generator
-│   ├── desc:  The most powerful open-source AI-powered SEO article generator...
-│   └── tech:  Python
-│
-├── daily-country-search-trends
-│   ├── desc:  Chrome extension that automatically posts the top 10 Google se...
-│   └── tech:  JavaScript
-│
-├── BoomAi
-│   ├── desc:  AI-powered content generation platform built with   Next.js 14...
-│   └── tech:  SCSS
-│
-├── Boomash
-│   ├── desc:  Laravel/Vue Js Admin Dashboard
-│   └── tech:  SCSS
-│
-├── seektalent
-│   ├── desc:  the ultimate talent hub platform
-│   └── tech:  TypeScript
-│
-├── Melkeya
-│   ├── desc:  Nextjs/Nodejs Real estate platform for the UAE market
-│   └── tech:  JavaScript
-│
-└── AgroCare
-    ├── desc:  Plant disease detection & comparison using LLM agents, bcrypt ...
-    └── tech:  Python
-
-13 directories, ∞ lines of code
-```
-
 <div align="center">
-
-[![Shopify-Seo](https://img.shields.io/badge/Shopify--Seo-0d1117?style=for-the-badge&logoColor=00ff41)](https://github.com/aymenhmaidiwastaken/Shopify-Seo)
-[![Css-Sniffer](https://img.shields.io/badge/Css--Sniffer-0d1117?style=for-the-badge&logoColor=00ff41)](https://github.com/aymenhmaidiwastaken/Css-Sniffer)
-[![linkedin-auto-connect](https://img.shields.io/badge/linkedin--auto--connect-0d1117?style=for-the-badge&logoColor=00ff41)](https://github.com/aymenhmaidiwastaken/linkedin-auto-connect)
-[![unsender-for-facebook](https://img.shields.io/badge/unsender--for--facebook-0d1117?style=for-the-badge&logoColor=00ff41)](https://github.com/aymenhmaidiwastaken/unsender-for-facebook)
-[![unsender-for-instagram](https://img.shields.io/badge/unsender--for--instagram-0d1117?style=for-the-badge&logoColor=00ff41)](https://github.com/aymenhmaidiwastaken/unsender-for-instagram)
-[![OpenBoil](https://img.shields.io/badge/OpenBoil-0d1117?style=for-the-badge&logoColor=00ff41)](https://github.com/aymenhmaidiwastaken/OpenBoil)
-[![seo-article-generator](https://img.shields.io/badge/seo--article--generator-0d1117?style=for-the-badge&logoColor=00ff41)](https://github.com/aymenhmaidiwastaken/seo-article-generator)
-[![daily-country-search-trends](https://img.shields.io/badge/daily--country--search--trends-0d1117?style=for-the-badge&logoColor=00ff41)](https://github.com/aymenhmaidiwastaken/daily-country-search-trends)
-[![BoomAi](https://img.shields.io/badge/BoomAi-0d1117?style=for-the-badge&logoColor=00ff41)](https://github.com/aymenhmaidiwastaken/BoomAi)
-[![Boomash](https://img.shields.io/badge/Boomash-0d1117?style=for-the-badge&logoColor=00ff41)](https://github.com/aymenhmaidiwastaken/Boomash)
-[![seektalent](https://img.shields.io/badge/seektalent-0d1117?style=for-the-badge&logoColor=00ff41)](https://github.com/aymenhmaidiwastaken/seektalent)
-[![Melkeya](https://img.shields.io/badge/Melkeya-0d1117?style=for-the-badge&logoColor=00ff41)](https://github.com/aymenhmaidiwastaken/Melkeya)
-[![AgroCare](https://img.shields.io/badge/AgroCare-0d1117?style=for-the-badge&logoColor=00ff41)](https://github.com/aymenhmaidiwastaken/AgroCare)
-
+  <img src="./assets/projects-tree.svg" width="500" alt="Projects Tree"/>
 </div>
+
+<br/>
+
+<details>
+<summary><code>Shopify-Seo</code> — JavaScript</summary>
+<br/>
+
+> Free Chrome extension for comprehensive Shopify SEO analysis.
+
+[![View Repo](https://img.shields.io/badge/View_Repo-0d1117?style=for-the-badge&logoColor=00ff41)](https://github.com/aymenhmaidiwastaken/Shopify-Seo)
+</details>
+
+<details>
+<summary><code>Css-Sniffer</code> — JavaScript</summary>
+<br/>
+
+> The ultimate CSS inspection & design system extraction Chrome extension.
+
+[![View Repo](https://img.shields.io/badge/View_Repo-0d1117?style=for-the-badge&logoColor=00ff41)](https://github.com/aymenhmaidiwastaken/Css-Sniffer)
+</details>
+
+<details>
+<summary><code>linkedin-auto-connect</code> — JavaScript</summary>
+<br/>
+
+> Chrome extension to automatically send LinkedIn connection requests.
+
+[![View Repo](https://img.shields.io/badge/View_Repo-0d1117?style=for-the-badge&logoColor=00ff41)](https://github.com/aymenhmaidiwastaken/linkedin-auto-connect)
+</details>
+
+<details>
+<summary><code>unsender-for-facebook</code> — JavaScript</summary>
+<br/>
+
+> Unsend all your sent messages in any Facebook Messenger conversation.
+
+[![View Repo](https://img.shields.io/badge/View_Repo-0d1117?style=for-the-badge&logoColor=00ff41)](https://github.com/aymenhmaidiwastaken/unsender-for-facebook)
+</details>
+
+<details>
+<summary><code>unsender-for-instagram</code> — JavaScript</summary>
+<br/>
+
+> Unsend all your sent messages in any Instagram DM conversation.
+
+[![View Repo](https://img.shields.io/badge/View_Repo-0d1117?style=for-the-badge&logoColor=00ff41)](https://github.com/aymenhmaidiwastaken/unsender-for-instagram)
+</details>
+
+<details>
+<summary><code>OpenBoil</code> — TypeScript</summary>
+<br/>
+
+> The ultimate open-source SaaS boilerplate. Ship in record time.
+
+[![View Repo](https://img.shields.io/badge/View_Repo-0d1117?style=for-the-badge&logoColor=00ff41)](https://github.com/aymenhmaidiwastaken/OpenBoil)
+</details>
+
+<details>
+<summary><code>seo-article-generator</code> — Python</summary>
+<br/>
+
+> The most powerful open-source AI-powered SEO article generator.
+
+[![View Repo](https://img.shields.io/badge/View_Repo-0d1117?style=for-the-badge&logoColor=00ff41)](https://github.com/aymenhmaidiwastaken/seo-article-generator)
+</details>
+
+<details>
+<summary><code>daily-country-search-trends</code> — JavaScript</summary>
+<br/>
+
+> Chrome extension that automatically posts the top 10 Google search trends.
+
+[![View Repo](https://img.shields.io/badge/View_Repo-0d1117?style=for-the-badge&logoColor=00ff41)](https://github.com/aymenhmaidiwastaken/daily-country-search-trends)
+</details>
+
+<details>
+<summary><code>BoomAi</code> — SCSS</summary>
+<br/>
+
+> AI-powered content generation platform built with Next.js 14.
+
+[![View Repo](https://img.shields.io/badge/View_Repo-0d1117?style=for-the-badge&logoColor=00ff41)](https://github.com/aymenhmaidiwastaken/BoomAi)
+</details>
+
+<details>
+<summary><code>Boomash</code> — SCSS</summary>
+<br/>
+
+> Laravel/Vue Js Admin Dashboard
+
+[![View Repo](https://img.shields.io/badge/View_Repo-0d1117?style=for-the-badge&logoColor=00ff41)](https://github.com/aymenhmaidiwastaken/Boomash)
+</details>
+
+<details>
+<summary><code>seektalent</code> — TypeScript</summary>
+<br/>
+
+> the ultimate talent hub platform
+
+[![View Repo](https://img.shields.io/badge/View_Repo-0d1117?style=for-the-badge&logoColor=00ff41)](https://github.com/aymenhmaidiwastaken/seektalent)
+</details>
+
+<details>
+<summary><code>Melkeya</code> — JavaScript</summary>
+<br/>
+
+> Nextjs/Nodejs Real estate platform for the UAE market
+
+[![View Repo](https://img.shields.io/badge/View_Repo-0d1117?style=for-the-badge&logoColor=00ff41)](https://github.com/aymenhmaidiwastaken/Melkeya)
+</details>
+
+<details>
+<summary><code>AgroCare</code> — Python</summary>
+<br/>
+
+> Plant disease detection & comparison using LLM agents.
+
+[![View Repo](https://img.shields.io/badge/View_Repo-0d1117?style=for-the-badge&logoColor=00ff41)](https://github.com/aymenhmaidiwastaken/AgroCare)
+</details>
+
 <!-- PROJECTS-END -->
 
 ---
