@@ -11,6 +11,37 @@ SVG_PATH = os.path.join(os.path.dirname(__file__), "..", "assets", "projects-tre
 # Repos to exclude (e.g. the profile repo itself)
 EXCLUDE = {f"{USERNAME}", f"{USERNAME.lower()}"}
 
+# Known frameworks/tools to detect from repo topics
+FRAMEWORK_KEYWORDS = {
+    "nextjs": "Next.js", "next": "Next.js",
+    "react": "React", "reactjs": "React",
+    "vue": "Vue.js", "vuejs": "Vue.js",
+    "angular": "Angular", "angularjs": "Angular",
+    "laravel": "Laravel",
+    "django": "Django",
+    "flask": "Flask",
+    "fastapi": "FastAPI",
+    "express": "Express", "expressjs": "Express",
+    "nestjs": "NestJS",
+    "nuxt": "Nuxt.js", "nuxtjs": "Nuxt.js",
+    "svelte": "Svelte", "sveltekit": "SvelteKit",
+    "tailwindcss": "Tailwind CSS", "tailwind": "Tailwind CSS",
+    "nodejs": "Node.js", "node": "Node.js",
+    "electron": "Electron",
+    "chrome-extension": "Chrome Extension",
+    "docker": "Docker",
+}
+
+
+def detect_tech(repo):
+    """Detect framework/tech from topics, falling back to language."""
+    topics = repo.get("topics", [])
+    for topic in topics:
+        t = topic.lower()
+        if t in FRAMEWORK_KEYWORDS:
+            return FRAMEWORK_KEYWORDS[t]
+    return repo.get("language") or "Unknown"
+
 
 def fetch_repos():
     url = f"https://api.github.com/users/{USERNAME}/repos?per_page=100&sort=updated&type=owner"
@@ -37,7 +68,7 @@ def generate_tree_svg(projects):
     width = max(int(text_x + max_name_len * 8.2 + pad_x), 500)
 
     header_lines = 3
-    footer_lines = 2
+    footer_lines = 3  # blank + count + cursor prompt
     total_lines = header_lines + n + footer_lines
     height = int(pad_y + total_lines * line_h + 20)
 
@@ -83,7 +114,11 @@ def generate_tree_svg(projects):
         lines.append(f'  .name-{i} {{ opacity: 0; animation: slideIn {name_dur}s ease {nd:.2f}s forwards }}')
 
     fd = tree_start + n * stagger + 0.4
+    cursor_delay = fd + 0.6
     lines.append(f'  .footer {{ opacity: 0; animation: fadeIn 0.6s ease {fd:.2f}s forwards }}')
+    lines.append(f'  .cursor {{ opacity: 0; animation: fadeIn 0.1s ease {cursor_delay:.2f}s forwards }}')
+    lines.append(f'  .cursor rect {{ animation: blink 1s step-end infinite {cursor_delay:.2f}s }}')
+    lines.append('  @keyframes blink { 0%, 100% { opacity: 1 } 50% { opacity: 0 } }')
     lines.append("  text { font-family: 'JetBrains Mono','Fira Code','Courier New',monospace }")
     lines.append('</style>')
 
@@ -125,6 +160,18 @@ def generate_tree_svg(projects):
 
     lines.append(f'<text x="{pad_x}" y="{footer_y}" fill="#555" font-size="11" class="footer">{n} repositories, \u221e lines of code</text>')
 
+    # Blinking cursor on a new prompt line
+    cursor_y = footer_y + line_h
+    lines.append(f'<text x="{pad_x}" y="{cursor_y}" fill="#4a9f4a" font-size="12" class="cursor">aymen@github</text>')
+    c2x = pad_x + 12 * 7.2
+    lines.append(f'<text x="{c2x}" y="{cursor_y}" fill="#555" font-size="12" class="cursor">:</text>')
+    c3x = c2x + 7.2
+    lines.append(f'<text x="{c3x}" y="{cursor_y}" fill="#3a7abf" font-size="12" class="cursor">~</text>')
+    c4x = c3x + 7.2
+    lines.append(f'<text x="{c4x}" y="{cursor_y}" fill="#ccc" font-size="12" class="cursor">$</text>')
+    c5x = c4x + 14
+    lines.append(f'<g class="cursor"><rect x="{c5x}" y="{cursor_y - 11}" width="8" height="14" fill="#00ff41"/></g>')
+
     lines.append('</svg>')
     return '\n'.join(lines)
 
@@ -148,8 +195,8 @@ def build_content(repos):
         desc = repo["description"] or "No description"
         if len(desc) > 80:
             desc = desc[:77] + "..."
-        lang = repo["language"] or "Unknown"
-        projects.append((name, desc, lang))
+        tech = detect_tech(repo)
+        projects.append((name, desc, tech))
 
     # Generate and save the SVG
     svg_content = generate_tree_svg(projects)
@@ -166,10 +213,9 @@ def build_content(repos):
         '',
     ]
 
-    for name, desc, lang in projects:
-        safe_name = name.replace("-", "--")
+    for name, desc, tech in projects:
         section_lines.append('<details>')
-        section_lines.append(f'<summary><code>{name}</code> \u2014 {lang}</summary>')
+        section_lines.append(f'<summary><code>{name}</code> \u2014 {tech}</summary>')
         section_lines.append('<br/>')
         section_lines.append('')
         section_lines.append(f'> {desc}')

@@ -72,7 +72,7 @@ Status    "i code to cure my depression"
 <br/>
 
 <details>
-<summary><code>Shopify-Seo</code> — JavaScript</summary>
+<summary><code>Shopify-Seo</code> — Chrome Extension</summary>
 <br/>
 
 > Free Chrome extension for comprehensive Shopify SEO analysis. 50+ checks, rea...
@@ -81,7 +81,7 @@ Status    "i code to cure my depression"
 </details>
 
 <details>
-<summary><code>Css-Sniffer</code> — JavaScript</summary>
+<summary><code>Css-Sniffer</code> — Chrome Extension</summary>
 <br/>
 
 > The ultimate CSS inspection & design system extraction Chrome extension — hov...
@@ -90,7 +90,7 @@ Status    "i code to cure my depression"
 </details>
 
 <details>
-<summary><code>linkedin-auto-connect</code> — JavaScript</summary>
+<summary><code>linkedin-auto-connect</code> — Chrome Extension</summary>
 <br/>
 
 > Chrome extension to automatically send LinkedIn connection requests — bulk co...
@@ -99,7 +99,7 @@ Status    "i code to cure my depression"
 </details>
 
 <details>
-<summary><code>unsender-for-facebook</code> — JavaScript</summary>
+<summary><code>unsender-for-facebook</code> — Chrome Extension</summary>
 <br/>
 
 > Unsend all your sent messages in any Facebook Messenger conversation with one...
@@ -108,7 +108,7 @@ Status    "i code to cure my depression"
 </details>
 
 <details>
-<summary><code>unsender-for-instagram</code> — JavaScript</summary>
+<summary><code>unsender-for-instagram</code> — Chrome Extension</summary>
 <br/>
 
 > Unsend all your sent messages in any Instagram DM conversation with one click...
@@ -117,7 +117,7 @@ Status    "i code to cure my depression"
 </details>
 
 <details>
-<summary><code>OpenBoil</code> — TypeScript</summary>
+<summary><code>OpenBoil</code> — Next.js</summary>
 <br/>
 
 > The ultimate open-source SaaS boilerplate. Ship in record time with Astro 5, ...
@@ -135,7 +135,7 @@ Status    "i code to cure my depression"
 </details>
 
 <details>
-<summary><code>daily-country-search-trends</code> — JavaScript</summary>
+<summary><code>daily-country-search-trends</code> — Chrome Extension</summary>
 <br/>
 
 > Chrome extension that automatically posts the top 10 Google search trends for...
@@ -144,7 +144,7 @@ Status    "i code to cure my depression"
 </details>
 
 <details>
-<summary><code>BoomAi</code> — SCSS</summary>
+<summary><code>BoomAi</code> — Next.js</summary>
 <br/>
 
 > AI-powered content generation platform built with   Next.js 14 and Laravel 11
@@ -153,7 +153,7 @@ Status    "i code to cure my depression"
 </details>
 
 <details>
-<summary><code>Boomash</code> — SCSS</summary>
+<summary><code>Boomash</code> — Laravel</summary>
 <br/>
 
 > Laravel/Vue Js Admin Dashboard
@@ -162,7 +162,7 @@ Status    "i code to cure my depression"
 </details>
 
 <details>
-<summary><code>seektalent</code> — TypeScript</summary>
+<summary><code>seektalent</code> — Next.js</summary>
 <br/>
 
 > the ultimate talent hub platform
@@ -171,7 +171,7 @@ Status    "i code to cure my depression"
 </details>
 
 <details>
-<summary><code>Melkeya</code> — JavaScript</summary>
+<summary><code>Melkeya</code> — Next.js</summary>
 <br/>
 
 > Nextjs/Nodejs Real estate platform for the UAE market
