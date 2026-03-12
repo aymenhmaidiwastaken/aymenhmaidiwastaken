@@ -28,4 +28,5 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git diff --quiet README.md || (git add README.md && git commit -m "chore: update projects section" && git push)
+          git add README.md assets/projects-tree.svg
+          git diff --cached --quiet || (git commit -m "chore: update projects section" && git push)
