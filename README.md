@@ -36,7 +36,7 @@ OS        Developer Brain v4.2.0
 Host      Aymen Hmaidi
 Kernel    Full-Stack v3.0-LTS
 Uptime    too long to remember
-Packages  13 (github)
+Packages  14 (github)
 Shell     bash / zsh
 Editor    VS Code [dark mode]
 Terminal  wherever there's WiFi
@@ -72,6 +72,15 @@ Status    "i code to cure my depression"
 </div>
 
 <br/>
+
+<details>
+<summary><code>reddit-auto-promoter</code> — Python</summary>
+<br/>
+
+> AI-powered Reddit marketing bot — generates human-like comments and posts using Ollama/Llama 3   with anti-detection browser automation, multi-account rotation, and smart promotion targeting across 60+ subreddits.
+
+[![View Repo](https://img.shields.io/badge/View_Repo-0d1117?style=for-the-badge&logoColor=00ff41)](https://github.com/aymenhmaidiwastaken/reddit-auto-promoter)
+</details>
 
 <details>
 <summary><code>OpenBoilerplate</code> — TypeScript</summary>
