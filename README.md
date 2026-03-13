@@ -36,7 +36,7 @@ OS        Developer Brain v4.2.0
 Host      Aymen Hmaidi
 Kernel    Full-Stack v3.0-LTS
 Uptime    too long to remember
-Packages  15 (github)
+Packages  16 (github)
 Shell     bash / zsh
 Editor    VS Code [dark mode]
 Terminal  wherever there's WiFi
@@ -72,6 +72,15 @@ Status    "i code to cure my depression"
 </div>
 
 <br/>
+
+<details>
+<summary><code>OpenPdf</code> — TypeScript</summary>
+<br/>
+
+> Free open-source PDF toolkit with 30+ tools : merge, split, compress, convert, OCR, encrypt & more. Self-hosted iLovePDF alternative built with Next.js 15 & FastAPI. No signup, no limits, privacy-first.
+
+[![View Repo](https://img.shields.io/badge/View_Repo-0d1117?style=for-the-badge&logoColor=00ff41)](https://github.com/aymenhmaidiwastaken/OpenPdf)
+</details>
 
 <details>
 <summary><code>cosmicwatch</code> — Python</summary>
