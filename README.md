@@ -36,7 +36,7 @@ OS        Developer Brain v4.2.0
 Host      Aymen Hmaidi
 Kernel    Full-Stack v3.0-LTS
 Uptime    too long to remember
-Packages  16 (github)
+Packages  17 (github)
 Shell     bash / zsh
 Editor    VS Code [dark mode]
 Terminal  wherever there's WiFi
@@ -72,6 +72,15 @@ Status    "i code to cure my depression"
 </div>
 
 <br/>
+
+<details>
+<summary><code>SEO-Optimiser</code> — Python</summary>
+<br/>
+
+> Self-contained SEO analysis tool with a web dashboard. Crawl any website, analyze 8 categories (technical, on-page, content, structured data, performance, security, accessibility, links), get a 0-100 score, and receive ready-to-use fixes — no external APIs needed.
+
+[![View Repo](https://img.shields.io/badge/View_Repo-0d1117?style=for-the-badge&logoColor=00ff41)](https://github.com/aymenhmaidiwastaken/SEO-Optimiser)
+</details>
 
 <details>
 <summary><code>OpenPdf</code> — TypeScript</summary>
