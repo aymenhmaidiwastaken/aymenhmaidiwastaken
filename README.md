@@ -36,7 +36,7 @@ OS        Developer Brain v4.2.0
 Host      Aymen Hmaidi
 Kernel    Full-Stack v3.0-LTS
 Uptime    too long to remember
-Packages  17 (github)
+Packages  18 (github)
 Shell     bash / zsh
 Editor    VS Code [dark mode]
 Terminal  wherever there's WiFi
@@ -74,6 +74,15 @@ Status    "i code to cure my depression"
 <br/>
 
 <details>
+<summary><code>GeoSnap</code> — Node.js</summary>
+<br/>
+
+> AI-powered photo geolocation tool — upload any photo and AI analyzes visual clues to pinpoint the exact location on an interactive map. Built with Node.js, Gemini Vision AI, and Leaflet.js.
+
+[![View Repo](https://img.shields.io/badge/View_Repo-0d1117?style=for-the-badge&logoColor=00ff41)](https://github.com/aymenhmaidiwastaken/GeoSnap)
+</details>
+
+<details>
 <summary><code>SEO-Optimiser</code> — Python</summary>
 <br/>
 
@@ -83,7 +92,7 @@ Status    "i code to cure my depression"
 </details>
 
 <details>
-<summary><code>OpenPdf</code> — TypeScript</summary>
+<summary><code>OpenPdf</code> — FastAPI</summary>
 <br/>
 
 > Free open-source PDF toolkit with 30+ tools : merge, split, compress, convert, OCR, encrypt & more. Self-hosted iLovePDF alternative built with Next.js 15 & FastAPI. No signup, no limits, privacy-first.
@@ -110,7 +119,7 @@ Status    "i code to cure my depression"
 </details>
 
 <details>
-<summary><code>OpenBoilerplate</code> — TypeScript</summary>
+<summary><code>OpenBoilerplate</code> — React</summary>
 <br/>
 
 > The ultimate open-source SaaS boilerplate. Ship in record time with Astro 5, React 19, Tailwind CSS 4, and shadcn/ui. Swap auth, payments, database & AI providers with one config change. 30+ production-ready pages included.
