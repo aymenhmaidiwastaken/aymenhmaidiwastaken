@@ -36,7 +36,7 @@ OS        Developer Brain v4.2.0
 Host      Aymen Hmaidi
 Kernel    Full-Stack v3.0-LTS
 Uptime    too long to remember
-Packages  21 (github)
+Packages  20 (github)
 Shell     bash / zsh
 Editor    VS Code [dark mode]
 Terminal  wherever there's WiFi
@@ -74,6 +74,24 @@ Status    "i code to cure my depression"
 <br/>
 
 <details>
+<summary><code>reddit-auto-promoter</code> — Python</summary>
+<br/>
+
+> AI-powered Reddit marketing bot — generates human-like comments and posts using Ollama/Llama 3   with anti-detection browser automation, multi-account rotation, and smart promotion targeting across 60+ subreddits.
+
+[![View Repo](https://img.shields.io/badge/View_Repo-0d1117?style=for-the-badge&logoColor=00ff41)](https://github.com/aymenhmaidiwastaken/reddit-auto-promoter)
+</details>
+
+<details>
+<summary><code>GeoSnap</code> — Node.js</summary>
+<br/>
+
+> AI-powered photo geolocation tool — upload any photo and AI analyzes visual clues to pinpoint the exact location on an interactive map. Built with Node.js, Gemini Vision AI, and Leaflet.js.
+
+[![View Repo](https://img.shields.io/badge/View_Repo-0d1117?style=for-the-badge&logoColor=00ff41)](https://github.com/aymenhmaidiwastaken/GeoSnap)
+</details>
+
+<details>
 <summary><code>devboot</code> — Go</summary>
 <br/>
 
@@ -101,15 +119,6 @@ Status    "i code to cure my depression"
 </details>
 
 <details>
-<summary><code>GeoSnap</code> — Node.js</summary>
-<br/>
-
-> AI-powered photo geolocation tool — upload any photo and AI analyzes visual clues to pinpoint the exact location on an interactive map. Built with Node.js, Gemini Vision AI, and Leaflet.js.
-
-[![View Repo](https://img.shields.io/badge/View_Repo-0d1117?style=for-the-badge&logoColor=00ff41)](https://github.com/aymenhmaidiwastaken/GeoSnap)
-</details>
-
-<details>
 <summary><code>SEO-Optimiser</code> — Python</summary>
 <br/>
 
@@ -134,15 +143,6 @@ Status    "i code to cure my depression"
 > AI-powered Earth & Space monitoring platform. Analyzes 5,000+ exoplanets, tracks near-Earth asteroids, monitors global wildfires using NASA satellite data with machine learning pipelines (KMeans, Isolation   Forest, ARIMA forecasting) and interactive Plotly Dash dashboard.
 
 [![View Repo](https://img.shields.io/badge/View_Repo-0d1117?style=for-the-badge&logoColor=00ff41)](https://github.com/aymenhmaidiwastaken/cosmicwatch)
-</details>
-
-<details>
-<summary><code>reddit-auto-promoter</code> — Python</summary>
-<br/>
-
-> AI-powered Reddit marketing bot — generates human-like comments and posts using Ollama/Llama 3   with anti-detection browser automation, multi-account rotation, and smart promotion targeting across 60+ subreddits.
-
-[![View Repo](https://img.shields.io/badge/View_Repo-0d1117?style=for-the-badge&logoColor=00ff41)](https://github.com/aymenhmaidiwastaken/reddit-auto-promoter)
 </details>
 
 <details>
@@ -233,15 +233,6 @@ Status    "i code to cure my depression"
 > Laravel/Vue Js Admin Dashboard
 
 [![View Repo](https://img.shields.io/badge/View_Repo-0d1117?style=for-the-badge&logoColor=00ff41)](https://github.com/aymenhmaidiwastaken/Boomash)
-</details>
-
-<details>
-<summary><code>seektalent</code> — Next.js</summary>
-<br/>
-
-> the ultimate talent hub platform
-
-[![View Repo](https://img.shields.io/badge/View_Repo-0d1117?style=for-the-badge&logoColor=00ff41)](https://github.com/aymenhmaidiwastaken/seektalent)
 </details>
 
 <details>
