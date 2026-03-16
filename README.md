@@ -36,7 +36,7 @@ OS        Developer Brain v4.2.0
 Host      Aymen Hmaidi
 Kernel    Full-Stack v3.0-LTS
 Uptime    too long to remember
-Packages  18 (github)
+Packages  21 (github)
 Shell     bash / zsh
 Editor    VS Code [dark mode]
 Terminal  wherever there's WiFi
@@ -72,6 +72,33 @@ Status    "i code to cure my depression"
 </div>
 
 <br/>
+
+<details>
+<summary><code>devboot</code> — Go</summary>
+<br/>
+
+> Fresh machine to productive in one command. Dev environment bootstrapper from a single YAML config.
+
+[![View Repo](https://img.shields.io/badge/View_Repo-0d1117?style=for-the-badge&logoColor=00ff41)](https://github.com/aymenhmaidiwastaken/devboot)
+</details>
+
+<details>
+<summary><code>gitwise</code> — Go</summary>
+<br/>
+
+> AI-powered commit messages and PR descriptions from your terminal. Works with Ollama, OpenAI, Anthropic, Gemini, and any OpenAI-compatible endpoint.
+
+[![View Repo](https://img.shields.io/badge/View_Repo-0d1117?style=for-the-badge&logoColor=00ff41)](https://github.com/aymenhmaidiwastaken/gitwise)
+</details>
+
+<details>
+<summary><code>envsafe</code> — Rust</summary>
+<br/>
+
+> Your secrets, encrypted, everywhere. Universal .env and secrets manager with encrypted vault, environment profiles, cloud sync, and more.
+
+[![View Repo](https://img.shields.io/badge/View_Repo-0d1117?style=for-the-badge&logoColor=00ff41)](https://github.com/aymenhmaidiwastaken/envsafe)
+</details>
 
 <details>
 <summary><code>GeoSnap</code> — Node.js</summary>
