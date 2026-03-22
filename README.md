@@ -73,6 +73,15 @@ Status    "i code to cure my depression"
 <br/>
 
 <details>
+<summary><code>OpenPdf</code> — FastAPI</summary>
+<br/>
+
+> Free open-source PDF toolkit with 30+ tools : merge, split, compress, convert, OCR, encrypt & more. Self-hosted iLovePDF alternative built with Next.js 15 & FastAPI. No signup, no limits, privacy-first.
+
+[![View Repo](https://img.shields.io/badge/View_Repo-0d1117?style=for-the-badge&logoColor=00ff41)](https://github.com/aymenhmaidiwastaken/OpenPdf)
+</details>
+
+<details>
 <summary><code>instagram-sent-requests-remover</code> — JavaScript</summary>
 <br/>
 
@@ -133,15 +142,6 @@ Status    "i code to cure my depression"
 > Self-contained SEO analysis tool with a web dashboard. Crawl any website, analyze 8 categories (technical, on-page, content, structured data, performance, security, accessibility, links), get a 0-100 score, and receive ready-to-use fixes — no external APIs needed.
 
 [![View Repo](https://img.shields.io/badge/View_Repo-0d1117?style=for-the-badge&logoColor=00ff41)](https://github.com/aymenhmaidiwastaken/SEO-Optimiser)
-</details>
-
-<details>
-<summary><code>OpenPdf</code> — FastAPI</summary>
-<br/>
-
-> Free open-source PDF toolkit with 30+ tools : merge, split, compress, convert, OCR, encrypt & more. Self-hosted iLovePDF alternative built with Next.js 15 & FastAPI. No signup, no limits, privacy-first.
-
-[![View Repo](https://img.shields.io/badge/View_Repo-0d1117?style=for-the-badge&logoColor=00ff41)](https://github.com/aymenhmaidiwastaken/OpenPdf)
 </details>
 
 <details>
