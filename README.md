@@ -35,7 +35,7 @@ OS        Developer Brain v4.2.0
 Host      Aymen Hmaidi
 Kernel    Full-Stack v3.0-LTS
 Uptime    too long to remember
-Packages  21 (github)
+Packages  23 (github)
 Shell     bash / zsh
 Editor    VS Code [dark mode]
 Terminal  wherever there's WiFi
@@ -71,6 +71,24 @@ Status    "i code to cure my depression"
 </div>
 
 <br/>
+
+<details>
+<summary><code>lazydb</code> — Go</summary>
+<br/>
+
+> One TUI to query them all. Terminal UI database client for PostgreSQL, MySQL, SQLite, MongoDB, and Redis. Single binary, keyboard-driven, 9 themes.
+
+[![View Repo](https://img.shields.io/badge/View_Repo-0d1117?style=for-the-badge&logoColor=00ff41)](https://github.com/aymenhmaidiwastaken/lazydb)
+</details>
+
+<details>
+<summary><code>gitviz</code> — Rust</summary>
+<br/>
+
+> See your git history like never before. Analyze any repo and generate beautiful HTML dashboards with contribution heatmaps, risk scoring, code ownership, collaboration graphs, and more.
+
+[![View Repo](https://img.shields.io/badge/View_Repo-0d1117?style=for-the-badge&logoColor=00ff41)](https://github.com/aymenhmaidiwastaken/gitviz)
+</details>
 
 <details>
 <summary><code>OpenPdf</code> — FastAPI</summary>
