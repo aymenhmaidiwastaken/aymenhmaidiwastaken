@@ -73,6 +73,69 @@ Status    "i code to cure my depression"
 <br/>
 
 <details>
+<summary><code>BoomAi</code> — Next.js</summary>
+<br/>
+
+> AI-powered content generation platform — text, images, and code. Built with Next.js 14 and Laravel 11. User auth, pricing plans, blog, dark/light mode.
+
+[![View Repo](https://img.shields.io/badge/View_Repo-0d1117?style=for-the-badge&logoColor=00ff41)](https://github.com/aymenhmaidiwastaken/BoomAi)
+</details>
+
+<details>
+<summary><code>Melkeya</code> — Next.js</summary>
+<br/>
+
+> Full-stack real estate platform for the UAE market. Built with Next.js 12, Express.js, MongoDB, and Firebase. JWT auth, email verification, property listings with image uploads, and search filters.
+
+[![View Repo](https://img.shields.io/badge/View_Repo-0d1117?style=for-the-badge&logoColor=00ff41)](https://github.com/aymenhmaidiwastaken/Melkeya)
+</details>
+
+<details>
+<summary><code>Boomash</code> — Laravel</summary>
+<br/>
+
+> Full-stack admin dashboard with dark/orange theme. Built with Laravel 11, Inertia.js, Vue 3, and Bootstrap 5. Includes analytics, chat, kanban tasks, calendar, and 2FA.
+
+[![View Repo](https://img.shields.io/badge/View_Repo-0d1117?style=for-the-badge&logoColor=00ff41)](https://github.com/aymenhmaidiwastaken/Boomash)
+</details>
+
+<details>
+<summary><code>OpenBoilerplate</code> — React</summary>
+<br/>
+
+> The ultimate open-source SaaS boilerplate. Ship in record time with Astro 5, React 19, Tailwind CSS 4, and shadcn/ui. Swap auth, payments, database & AI providers with one config change. 30+ production-ready pages included.
+
+[![View Repo](https://img.shields.io/badge/View_Repo-0d1117?style=for-the-badge&logoColor=00ff41)](https://github.com/aymenhmaidiwastaken/OpenBoilerplate)
+</details>
+
+<details>
+<summary><code>AgroCare</code> — Python</summary>
+<br/>
+
+> Plant disease detection & comparison using LLM agents, bcrypt auth, and MongoDB history
+
+[![View Repo](https://img.shields.io/badge/View_Repo-0d1117?style=for-the-badge&logoColor=00ff41)](https://github.com/aymenhmaidiwastaken/AgroCare)
+</details>
+
+<details>
+<summary><code>seo-article-generator</code> — Python</summary>
+<br/>
+
+> The most powerful open-source AI-powered SEO article generator. Crawl thousands of articles from 5 search engines,   extract clean content, and rewrite them into unique SEO-optimized articles using local AI (Ollama) — all from a single    command. No API keys. No limits. Free forever.
+
+[![View Repo](https://img.shields.io/badge/View_Repo-0d1117?style=for-the-badge&logoColor=00ff41)](https://github.com/aymenhmaidiwastaken/seo-article-generator)
+</details>
+
+<details>
+<summary><code>daily-country-search-trends</code> — Chrome Extension</summary>
+<br/>
+
+> Chrome extension that automatically posts the top 10 Google search trends for 195 countries to X/Twitter   every day. Powered by Google Trends.
+
+[![View Repo](https://img.shields.io/badge/View_Repo-0d1117?style=for-the-badge&logoColor=00ff41)](https://github.com/aymenhmaidiwastaken/daily-country-search-trends)
+</details>
+
+<details>
 <summary><code>promptcheck</code> — Python</summary>
 <br/>
 
@@ -109,7 +172,7 @@ Status    "i code to cure my depression"
 </details>
 
 <details>
-<summary><code>instagram-sent-requests-remover</code> — JavaScript</summary>
+<summary><code>instagram-sent-requests-remover</code> — Chrome Extension</summary>
 <br/>
 
 > A secure Chrome extension to automatically withdraw all your pending outgoing follow requests on Instagram using your official data archive.
@@ -181,15 +244,6 @@ Status    "i code to cure my depression"
 </details>
 
 <details>
-<summary><code>OpenBoilerplate</code> — React</summary>
-<br/>
-
-> The ultimate open-source SaaS boilerplate. Ship in record time with Astro 5, React 19, Tailwind CSS 4, and shadcn/ui. Swap auth, payments, database & AI providers with one config change. 30+ production-ready pages included.
-
-[![View Repo](https://img.shields.io/badge/View_Repo-0d1117?style=for-the-badge&logoColor=00ff41)](https://github.com/aymenhmaidiwastaken/OpenBoilerplate)
-</details>
-
-<details>
 <summary><code>Shopify-Seo</code> — Chrome Extension</summary>
 <br/>
 
@@ -232,60 +286,6 @@ Status    "i code to cure my depression"
 > Unsend all your sent messages in any Instagram DM conversation with one click. Chrome extension that scrolls through your entire chat history automatically.
 
 [![View Repo](https://img.shields.io/badge/View_Repo-0d1117?style=for-the-badge&logoColor=00ff41)](https://github.com/aymenhmaidiwastaken/unsender-for-instagram)
-</details>
-
-<details>
-<summary><code>seo-article-generator</code> — Python</summary>
-<br/>
-
-> The most powerful open-source AI-powered SEO article generator. Crawl thousands of articles from 5 search engines,   extract clean content, and rewrite them into unique SEO-optimized articles using local AI (Ollama) — all from a single    command. No API keys. No limits. Free forever.
-
-[![View Repo](https://img.shields.io/badge/View_Repo-0d1117?style=for-the-badge&logoColor=00ff41)](https://github.com/aymenhmaidiwastaken/seo-article-generator)
-</details>
-
-<details>
-<summary><code>daily-country-search-trends</code> — Chrome Extension</summary>
-<br/>
-
-> Chrome extension that automatically posts the top 10 Google search trends for 195 countries to X/Twitter   every day. Powered by Google Trends.
-
-[![View Repo](https://img.shields.io/badge/View_Repo-0d1117?style=for-the-badge&logoColor=00ff41)](https://github.com/aymenhmaidiwastaken/daily-country-search-trends)
-</details>
-
-<details>
-<summary><code>BoomAi</code> — Next.js</summary>
-<br/>
-
-> AI-powered content generation platform built with   Next.js 14 and Laravel 11
-
-[![View Repo](https://img.shields.io/badge/View_Repo-0d1117?style=for-the-badge&logoColor=00ff41)](https://github.com/aymenhmaidiwastaken/BoomAi)
-</details>
-
-<details>
-<summary><code>Boomash</code> — Laravel</summary>
-<br/>
-
-> Laravel/Vue Js Admin Dashboard
-
-[![View Repo](https://img.shields.io/badge/View_Repo-0d1117?style=for-the-badge&logoColor=00ff41)](https://github.com/aymenhmaidiwastaken/Boomash)
-</details>
-
-<details>
-<summary><code>Melkeya</code> — Next.js</summary>
-<br/>
-
-> Nextjs/Nodejs Real estate platform for the UAE market
-
-[![View Repo](https://img.shields.io/badge/View_Repo-0d1117?style=for-the-badge&logoColor=00ff41)](https://github.com/aymenhmaidiwastaken/Melkeya)
-</details>
-
-<details>
-<summary><code>AgroCare</code> — Python</summary>
-<br/>
-
-> Plant disease detection & comparison using LLM agents, bcrypt auth, and MongoDB history
-
-[![View Repo](https://img.shields.io/badge/View_Repo-0d1117?style=for-the-badge&logoColor=00ff41)](https://github.com/aymenhmaidiwastaken/AgroCare)
 </details>
 <!-- PROJECTS-END -->
 
