@@ -35,7 +35,7 @@ OS        Developer Brain v4.2.0
 Host      Aymen Hmaidi
 Kernel    Full-Stack v3.0-LTS
 Uptime    too long to remember
-Packages  25 (github)
+Packages  26 (github)
 Shell     bash / zsh
 Editor    VS Code [dark mode]
 Terminal  wherever there's WiFi
@@ -71,6 +71,15 @@ Status    "i code to cure my depression"
 </div>
 
 <br/>
+
+<details>
+<summary><code>cli-recorder</code> — Node.js</summary>
+<br/>
+
+> Terminal session recorder — record, play back, and export terminal sessions to GIF or MP4. Asciicast v2 compatible.
+
+[![View Repo](https://img.shields.io/badge/View_Repo-0d1117?style=for-the-badge&logoColor=00ff41)](https://github.com/aymenhmaidiwastaken/cli-recorder)
+</details>
 
 <details>
 <summary><code>catfish-detector</code> — FastAPI</summary>
