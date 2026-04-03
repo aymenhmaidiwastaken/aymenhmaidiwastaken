@@ -35,7 +35,7 @@ OS        Developer Brain v4.2.0
 Host      Aymen Hmaidi
 Kernel    Full-Stack v3.0-LTS
 Uptime    too long to remember
-Packages  27 (github)
+Packages  28 (github)
 Shell     bash / zsh
 Editor    VS Code [dark mode]
 Terminal  wherever there's WiFi
@@ -71,6 +71,15 @@ Status    "i code to cure my depression"
 </div>
 
 <br/>
+
+<details>
+<summary><code>easyrag</code> — FastAPI</summary>
+<br/>
+
+> RAG in 10 lines. No PhD required. Chat with your documents, codebase, or any text data — locally or via cloud APIs. Dead-simple Python library and CLI for Retrieval-Augmented Generation.
+
+[![View Repo](https://img.shields.io/badge/View_Repo-0d1117?style=for-the-badge&logoColor=00ff41)](https://github.com/aymenhmaidiwastaken/easyrag)
+</details>
 
 <details>
 <summary><code>internship-finder</code> — FastAPI</summary>
