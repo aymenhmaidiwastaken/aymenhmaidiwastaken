@@ -35,7 +35,7 @@ OS        Developer Brain v4.2.0
 Host      Aymen Hmaidi
 Kernel    Full-Stack v3.0-LTS
 Uptime    too long to remember
-Packages  30 (github)
+Packages  31 (github)
 Shell     bash / zsh
 Editor    VS Code [dark mode]
 Terminal  wherever there's WiFi
@@ -73,6 +73,51 @@ Status    "i code to cure my depression"
 <br/>
 
 <details>
+<summary><code>GeoSnap</code> — Node.js</summary>
+<br/>
+
+> AI-powered photo geolocation tool — upload any photo and AI analyzes visual clues to pinpoint the exact location on an interactive map. Built with Node.js, Gemini Vision AI, and Leaflet.js.
+
+[![View Repo](https://img.shields.io/badge/View_Repo-0d1117?style=for-the-badge&logoColor=00ff41)](https://github.com/aymenhmaidiwastaken/GeoSnap)
+</details>
+
+<details>
+<summary><code>cosmicwatch</code> — Python</summary>
+<br/>
+
+> AI-powered Earth & Space monitoring platform. Analyzes 5,000+ exoplanets, tracks near-Earth asteroids, monitors global wildfires using NASA satellite data with machine learning pipelines (KMeans, Isolation   Forest, ARIMA forecasting) and interactive Plotly Dash dashboard.
+
+[![View Repo](https://img.shields.io/badge/View_Repo-0d1117?style=for-the-badge&logoColor=00ff41)](https://github.com/aymenhmaidiwastaken/cosmicwatch)
+</details>
+
+<details>
+<summary><code>OpenPdf</code> — FastAPI</summary>
+<br/>
+
+> Free open-source PDF toolkit with 30+ tools : merge, split, compress, convert, OCR, encrypt & more. Self-hosted iLovePDF alternative built with Next.js 15 & FastAPI. No signup, no limits, privacy-first.
+
+[![View Repo](https://img.shields.io/badge/View_Repo-0d1117?style=for-the-badge&logoColor=00ff41)](https://github.com/aymenhmaidiwastaken/OpenPdf)
+</details>
+
+<details>
+<summary><code>internship-finder</code> — FastAPI</summary>
+<br/>
+
+> Full-stack internship search tool that scrapes LinkedIn, Adzuna, TheMuse & more. Smart autocomplete, filters, 8 languages. Built with Next.js + FastAPI.
+
+[![View Repo](https://img.shields.io/badge/View_Repo-0d1117?style=for-the-badge&logoColor=00ff41)](https://github.com/aymenhmaidiwastaken/internship-finder)
+</details>
+
+<details>
+<summary><code>dotfiles</code> — Unknown</summary>
+<br/>
+
+> Personal dotfiles
+
+[![View Repo](https://img.shields.io/badge/View_Repo-0d1117?style=for-the-badge&logoColor=00ff41)](https://github.com/aymenhmaidiwastaken/dotfiles)
+</details>
+
+<details>
 <summary><code>ByePostman</code> — TypeScript</summary>
 <br/>
 
@@ -97,15 +142,6 @@ Status    "i code to cure my depression"
 > RAG in 10 lines. No PhD required. Chat with your documents, codebase, or any text data — locally or via cloud APIs. Dead-simple Python library and CLI for Retrieval-Augmented Generation.
 
 [![View Repo](https://img.shields.io/badge/View_Repo-0d1117?style=for-the-badge&logoColor=00ff41)](https://github.com/aymenhmaidiwastaken/easyrag)
-</details>
-
-<details>
-<summary><code>internship-finder</code> — FastAPI</summary>
-<br/>
-
-> Full-stack internship search tool that scrapes LinkedIn, Adzuna, TheMuse & more. Smart autocomplete, filters, 8 languages. Built with Next.js + FastAPI.
-
-[![View Repo](https://img.shields.io/badge/View_Repo-0d1117?style=for-the-badge&logoColor=00ff41)](https://github.com/aymenhmaidiwastaken/internship-finder)
 </details>
 
 <details>
@@ -217,15 +253,6 @@ Status    "i code to cure my depression"
 </details>
 
 <details>
-<summary><code>OpenPdf</code> — FastAPI</summary>
-<br/>
-
-> Free open-source PDF toolkit with 30+ tools : merge, split, compress, convert, OCR, encrypt & more. Self-hosted iLovePDF alternative built with Next.js 15 & FastAPI. No signup, no limits, privacy-first.
-
-[![View Repo](https://img.shields.io/badge/View_Repo-0d1117?style=for-the-badge&logoColor=00ff41)](https://github.com/aymenhmaidiwastaken/OpenPdf)
-</details>
-
-<details>
 <summary><code>instagram-sent-requests-remover</code> — Chrome Extension</summary>
 <br/>
 
@@ -241,15 +268,6 @@ Status    "i code to cure my depression"
 > AI-powered Reddit marketing bot — generates human-like comments and posts using Ollama/Llama 3   with anti-detection browser automation, multi-account rotation, and smart promotion targeting across 60+ subreddits.
 
 [![View Repo](https://img.shields.io/badge/View_Repo-0d1117?style=for-the-badge&logoColor=00ff41)](https://github.com/aymenhmaidiwastaken/reddit-auto-promoter)
-</details>
-
-<details>
-<summary><code>GeoSnap</code> — Node.js</summary>
-<br/>
-
-> AI-powered photo geolocation tool — upload any photo and AI analyzes visual clues to pinpoint the exact location on an interactive map. Built with Node.js, Gemini Vision AI, and Leaflet.js.
-
-[![View Repo](https://img.shields.io/badge/View_Repo-0d1117?style=for-the-badge&logoColor=00ff41)](https://github.com/aymenhmaidiwastaken/GeoSnap)
 </details>
 
 <details>
@@ -286,15 +304,6 @@ Status    "i code to cure my depression"
 > Self-contained SEO analysis tool with a web dashboard. Crawl any website, analyze 8 categories (technical, on-page, content, structured data, performance, security, accessibility, links), get a 0-100 score, and receive ready-to-use fixes — no external APIs needed.
 
 [![View Repo](https://img.shields.io/badge/View_Repo-0d1117?style=for-the-badge&logoColor=00ff41)](https://github.com/aymenhmaidiwastaken/SEO-Optimiser)
-</details>
-
-<details>
-<summary><code>cosmicwatch</code> — Python</summary>
-<br/>
-
-> AI-powered Earth & Space monitoring platform. Analyzes 5,000+ exoplanets, tracks near-Earth asteroids, monitors global wildfires using NASA satellite data with machine learning pipelines (KMeans, Isolation   Forest, ARIMA forecasting) and interactive Plotly Dash dashboard.
-
-[![View Repo](https://img.shields.io/badge/View_Repo-0d1117?style=for-the-badge&logoColor=00ff41)](https://github.com/aymenhmaidiwastaken/cosmicwatch)
 </details>
 
 <details>
